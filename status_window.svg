@@ -1,36 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
   <defs>
-    <!-- Soft, Calm, Hazy Space Gradient -->
-    <linearGradient id="sky-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090b16" />
-      <stop offset="40%" stop-color="#12162d" />
-      <stop offset="80%" stop-color="#211a37" />
-      <stop offset="100%" stop-color="#0c0e18" />
+    <!-- Deep Ethereal Foggy Night Sky Gradient -->
+    <linearGradient id="foggy-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080a12" />
+      <stop offset="50%" stop-color="#141a29" />
+      <stop offset="100%" stop-color="#090b10" />
     </linearGradient>
 
-    <!-- Warm Parchment Gradients -->
-    <linearGradient id="parchment-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fdfbf7" />
-      <stop offset="70%" stop-color="#f5efe2" />
+    <!-- Warm Parchment Paper Gradient -->
+    <linearGradient id="paper-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fefdfa" />
+      <stop offset="60%" stop-color="#f6f0e5" />
       <stop offset="100%" stop-color="#ebdcb9" />
     </linearGradient>
 
-    <linearGradient id="book-shadow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="rgba(0,0,0,0.15)" />
-      <stop offset="100%" stop-color="rgba(0,0,0,0.4)" />
-    </linearGradient>
-
-    <!-- Soft Gold Glow -->
-    <filter id="soft-gold-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+    <!-- Fog Filters for Dreamy/Windy atmosphere -->
+    <filter id="fog-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+    </filter>
+    
+    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
 
-    <filter id="magic-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <filter id="glow-magic" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -38,256 +36,324 @@
     </filter>
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&amp;family=Playfair+Display:ital,wght@0,500;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@500;600&amp;display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&amp;family=Playfair+Display:ital,wght@0,500;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@500;700&amp;display=swap');
       
       <![CDATA[
-      .header-font {
+      .title-text {
         font-family: 'Cinzel', serif;
-        font-weight: 700;
+        font-weight: 800;
         letter-spacing: 2px;
       }
       
-      .handwritten-font {
+      .script-text {
         font-family: 'Playfair Display', Georgia, serif;
       }
       
-      .label-font {
+      .small-label {
         font-family: 'Cinzel', serif;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 11px;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
       }
 
-      /* Slow, Calm Ethereal Animations */
-      .star-blink {
-        animation: calm-blink-anim 4s infinite ease-in-out;
+      /* Rain & Wind Animations */
+      .rain-drop {
+        stroke: #93c5fd;
+        stroke-opacity: 0.25;
+        stroke-dasharray: 4 12;
+        animation: rain-fall-anim infinite linear;
+      }
+
+      .wind-fog {
+        fill: #3b82f6;
+        fill-opacity: 0.04;
+        animation: fog-drift-anim infinite ease-in-out;
       }
       
-      .star-blink-delayed {
-        animation: calm-blink-anim 5s infinite ease-in-out 1.5s;
+      .wind-fog-alt {
+        fill: #4f46e5;
+        fill-opacity: 0.03;
+        animation: fog-drift-anim-alt infinite ease-in-out;
       }
 
-      .float-gentle {
-        animation: float-gentle-anim 8s infinite ease-in-out;
+      .grass-blade {
+        transform-origin: bottom center;
+        animation: sway-anim 6s infinite ease-in-out;
       }
 
-      .sparkle-pulse {
-        animation: sparkle-pulse-anim 3.5s infinite ease-in-out;
+      .grass-blade-fast {
+        transform-origin: bottom center;
+        animation: sway-anim 4.5s infinite ease-in-out 1s;
       }
 
-      @keyframes calm-blink-anim {
-        0%, 100% { opacity: 0.15; }
-        50% { opacity: 0.85; }
+      .star-fade {
+        animation: star-fade-anim 4s infinite ease-in-out;
+      }
+      
+      .star-fade-delayed {
+        animation: star-fade-anim 5s infinite ease-in-out 2s;
       }
 
-      @keyframes float-gentle-anim {
+      .book-float {
+        animation: book-float-anim 7s infinite ease-in-out;
+      }
+
+      .glow-pulse {
+        animation: glow-pulse-anim 4s infinite ease-in-out;
+      }
+
+      /* Animation Definitions */
+      @keyframes rain-fall-anim {
+        0% { stroke-dashoffset: 100; transform: translate(0, -150px); opacity: 0; }
+        30% { opacity: 0.6; }
+        90% { opacity: 0.6; }
+        100% { stroke-dashoffset: -300; transform: translate(-50px, 450px); opacity: 0; }
+      }
+
+      @keyframes fog-drift-anim {
+        0% { transform: translate(-100px, 20px) scale(1); opacity: 0; }
+        40% { opacity: 0.25; }
+        70% { opacity: 0.25; }
+        100% { transform: translate(650px, -20px) scale(1.3); opacity: 0; }
+      }
+
+      @keyframes fog-drift-anim-alt {
+        0% { transform: translate(-150px, 100px) scale(1.2); opacity: 0; }
+        50% { opacity: 0.2; }
+        80% { opacity: 0.2; }
+        100% { transform: translate(600px, 50px) scale(0.9); opacity: 0; }
+      }
+
+      @keyframes sway-anim {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(3.5deg); }
+      }
+
+      @keyframes star-fade-anim {
+        0%, 100% { opacity: 0.1; }
+        50% { opacity: 0.9; }
+      }
+
+      @keyframes book-float-anim {
         0%, 100% { transform: translateY(0px) rotate(0deg); }
-        50% { transform: translateY(-5px) rotate(0.5deg); }
+        50% { transform: translateY(-7px) rotate(0.4deg); }
       }
 
-      @keyframes sparkle-pulse-anim {
-        0%, 100% { opacity: 0.4; filter: drop-shadow(0 0 1px #ebdcb9); }
-        50% { opacity: 0.95; filter: drop-shadow(0 0 6px #ffd700); }
+      @keyframes glow-pulse-anim {
+        0%, 100% { filter: drop-shadow(0 0 1px #ebdcb9) opacity(0.5); }
+        50% { filter: drop-shadow(0 0 8px #ffd700) opacity(0.95); }
       }
       ]]>
     </style>
   </defs>
 
-  <!-- Deep Starry Night Background -->
-  <rect width="800" height="450" rx="20" fill="url(#sky-grad)" stroke="#272e4b" stroke-width="1.5" />
-  
-  <!-- Soft Nebulous Aura -->
-  <circle cx="400" cy="225" r="300" fill="#443266" opacity="0.15" filter="url(#magic-glow)" />
-  <circle cx="180" cy="180" r="180" fill="#1b2a4a" opacity="0.2" filter="url(#magic-glow)" />
+  <!-- Canvas Background -->
+  <rect width="800" height="450" rx="24" fill="url(#foggy-sky)" stroke="#1e293b" stroke-width="2" />
 
-  <!-- Calm Stellar Constellations -->
-  <g fill="none" stroke="#e0e7ff" stroke-width="0.5" opacity="0.2">
-    <!-- Star lines (Astrological Map) -->
-    <line x1="80" y1="80" x2="160" y2="60" />
-    <line x1="160" y1="60" x2="220" y2="90" />
-    <line x1="220" y1="90" x2="150" y2="150" />
-    <line x1="150" y1="150" x2="80" y2="80" />
-    
-    <line x1="720" y1="100" x2="650" y2="140" />
-    <line x1="650" y1="140" x2="680" y2="210" />
-    
-    <line x1="100" y1="360" x2="180" y2="390" />
-    <line x1="180" y1="390" x2="240" y2="340" />
+  <!-- Ethereal Whispering Winds & Moving Fog -->
+  <g filter="url(#fog-blur)">
+    <!-- Fog bank 1 -->
+    <ellipse cx="200" cy="225" rx="150" ry="80" class="wind-fog" style="animation-duration: 22s;" />
+    <!-- Fog bank 2 -->
+    <ellipse cx="400" cy="150" rx="180" ry="90" class="wind-fog-alt" style="animation-duration: 28s;" />
+    <!-- Fog bank 3 -->
+    <ellipse cx="100" cy="350" rx="120" ry="70" class="wind-fog" style="animation-duration: 18s;" />
   </g>
-  
-  <!-- Blinking Constellation Stars -->
+
+  <!-- Quiet Falling Rain (Diagonal, Wind-swept) -->
+  <g stroke-width="1">
+    <line x1="120" y1="0" x2="20" y2="400" class="rain-drop" style="animation-duration: 2.2s;" />
+    <line x1="300" y1="0" x2="200" y2="400" class="rain-drop" style="animation-duration: 1.8s; animation-delay: 0.4s;" />
+    <line x1="450" y1="0" x2="350" y2="400" class="rain-drop" style="animation-duration: 2.5s; animation-delay: 0.8s;" />
+    <line x1="650" y1="0" x2="550" y2="400" class="rain-drop" style="animation-duration: 2.0s; animation-delay: 0.2s;" />
+    <line x1="780" y1="0" x2="680" y2="400" class="rain-drop" style="animation-duration: 2.3s; animation-delay: 0.6s;" />
+    <line x1="220" y1="0" x2="120" y2="400" class="rain-drop" style="animation-duration: 2.1s; animation-delay: 1.1s;" />
+    <line x1="550" y1="0" x2="450" y2="400" class="rain-drop" style="animation-duration: 1.9s; animation-delay: 1.3s;" />
+  </g>
+
+  <!-- Soft Starfield -->
   <g fill="#ffffff">
-    <circle cx="80" cy="80" r="1.5" class="star-blink" />
-    <circle cx="160" cy="60" r="2.5" class="star-blink-delayed" fill="#ffd700" />
-    <circle cx="220" cy="90" r="1.2" class="star-blink" />
-    <circle cx="150" cy="150" r="2" class="star-blink-delayed" />
-    <circle cx="720" cy="100" r="2" class="star-blink" fill="#ffd700" />
-    <circle cx="650" cy="140" r="1.5" class="star-blink-delayed" />
-    <circle cx="680" cy="210" r="2.5" class="star-blink" />
-    <circle cx="100" cy="360" r="1.2" class="star-blink-delayed" />
-    <circle cx="180" cy="390" r="2" class="star-blink" fill="#ffd700" />
-    <circle cx="240" cy="340" r="1.5" class="star-blink-delayed" />
+    <circle cx="80" cy="60" r="1.2" class="star-fade" />
+    <circle cx="280" cy="50" r="1.5" class="star-fade-delayed" fill="#ffd700" />
+    <circle cx="670" cy="80" r="1" class="star-fade" />
+    <circle cx="720" cy="140" r="1.8" class="star-fade-delayed" />
+    <circle cx="500" cy="40" r="1" class="star-fade" fill="#ffd700" />
   </g>
 
-  <!-- Quiet Starfield -->
-  <g fill="#ffffff" opacity="0.3">
-    <circle cx="340" cy="40" r="0.8" class="star-blink" />
-    <circle cx="480" cy="50" r="1" class="star-blink-delayed" />
-    <circle cx="560" cy="25" r="0.6" class="star-blink" />
-    <circle cx="450" cy="410" r="0.8" class="star-blink-delayed" />
-    <circle cx="380" cy="390" r="1" class="star-blink" />
+  <!-- Celestial Coordinate Grid (Astrology Map) -->
+  <g stroke="#dfc593" stroke-width="0.5" fill="none" opacity="0.08">
+    <circle cx="400" cy="225" r="200" />
+    <circle cx="400" cy="225" r="130" stroke-dasharray="3 5" />
+    <line x1="200" y1="225" x2="600" y2="225" />
+    <line x1="400" y1="25" x2="400" y2="425" />
   </g>
 
-  <!-- Soft Golden Celestial Star Chart Circles -->
-  <g stroke="#ffd700" stroke-width="0.5" fill="none" opacity="0.12">
-    <circle cx="400" cy="225" r="190" />
-    <circle cx="400" cy="225" r="185" stroke-dasharray="2 4" />
-    <circle cx="400" cy="225" r="120" />
-  </g>
+  <!-- ================= ANCIENT PARCHMENT JOURNAL (CENTERED & FLOATING) ================= -->
+  <g transform="translate(100, 50)" class="book-float">
+    <!-- Ethereal Back Light Glow -->
+    <rect x="10" y="10" width="580" height="320" rx="14" fill="#3b82f6" opacity="0.08" filter="url(#glow-magic)" />
+    <rect x="-8" y="12" width="616" height="326" rx="10" fill="rgba(0,0,0,0.3)" filter="url(#glow-magic)" />
 
-  <!-- Outer Frame: Calm Ornate Corners -->
-  <g stroke="#ffd700" stroke-width="1" fill="none" opacity="0.3" class="sparkle-pulse">
-    <!-- Top-Left corner -->
-    <path d="M 25,50 L 25,25 L 50,25" />
-    <circle cx="25" cy="25" r="3" fill="#ffd700" />
-    <!-- Top-Right corner -->
-    <path d="M 775,50 L 775,25 L 750,25" />
-    <circle cx="775" cy="25" r="3" fill="#ffd700" />
-    <!-- Bottom-Left corner -->
-    <path d="M 25,400 L 25,425 L 50,425" />
-    <circle cx="25" cy="425" r="3" fill="#ffd700" />
-    <!-- Bottom-Right corner -->
-    <path d="M 775,400 L 775,425 L 750,425" />
-    <circle cx="775" cy="425" r="3" fill="#ffd700" />
-  </g>
+    <!-- Open Book Binding -->
+    <rect x="-4" y="2" width="608" height="326" rx="8" fill="#381d0f" stroke="#1d0a02" stroke-width="2" />
+    <rect x="0" y="6" width="600" height="318" rx="6" fill="#4d2914" />
 
-  <!-- ================= ANCIENT WIZARDING SPELLBOOK (CENTERED & FLOATING) ================= -->
-  <g transform="translate(100, 55)" class="float-gentle">
-    <!-- Book Shadow -->
-    <rect x="-10" y="15" width="620" height="340" rx="12" fill="url(#book-shadow)" filter="url(#magic-glow)" />
+    <!-- Book Page Left (Parchment Paper) -->
+    <rect x="8" y="12" width="288" height="306" rx="4" fill="url(#paper-grad)" />
+    <!-- Page Left Borders -->
+    <rect x="16" y="20" width="272" height="290" rx="2" fill="none" stroke="#dfc593" stroke-width="0.8" opacity="0.5" />
+    <rect x="20" y="24" width="264" height="282" rx="2" fill="none" stroke="#ebdcb9" stroke-width="1.2" opacity="0.8" />
 
-    <!-- Open Book Leather Cover back -->
-    <rect x="-4" y="2" width="608" height="336" rx="8" fill="#422212" stroke="#251206" stroke-width="2" />
-    <rect x="0" y="6" width="600" height="328" rx="6" fill="#5c341a" />
+    <!-- Book Page Right (Parchment Paper) -->
+    <rect x="304" y="12" width="288" height="306" rx="4" fill="url(#paper-grad)" />
+    <!-- Page Right Borders -->
+    <rect x="312" y="20" width="272" height="290" rx="2" fill="none" stroke="#dfc593" stroke-width="0.8" opacity="0.5" />
+    <rect x="316" y="24" width="264" height="282" rx="2" fill="none" stroke="#ebdcb9" stroke-width="1.2" opacity="0.8" />
 
-    <!-- Book Page Left (Parchment) -->
-    <rect x="8" y="12" width="288" height="316" rx="4" fill="url(#parchment-grad)" />
-    <!-- Page Left - Innermost gold border -->
-    <rect x="16" y="20" width="272" height="300" rx="2" fill="none" stroke="#dfc593" stroke-width="0.8" opacity="0.6" />
-    <rect x="20" y="24" width="264" height="292" rx="2" fill="none" stroke="#ebdcb9" stroke-width="1.5" opacity="0.8" />
+    <!-- Spine Shadow -->
+    <rect x="296" y="12" width="8" height="306" fill="rgba(0,0,0,0.15)" />
+    <line x1="300" y1="12" x2="300" y2="318" stroke="rgba(0,0,0,0.3)" stroke-width="1.5" />
 
-    <!-- Book Page Right (Parchment) -->
-    <rect x="304" y="12" width="288" height="316" rx="4" fill="url(#parchment-grad)" />
-    <!-- Page Right - Innermost gold border -->
-    <rect x="312" y="20" width="272" height="300" rx="2" fill="none" stroke="#dfc593" stroke-width="0.8" opacity="0.6" />
-    <rect x="316" y="24" width="264" height="292" rx="2" fill="none" stroke="#ebdcb9" stroke-width="1.5" opacity="0.8" />
-
-    <!-- Book Spine center shadow crease -->
-    <rect x="296" y="12" width="8" height="316" fill="rgba(0,0,0,0.15)" />
-    <line x1="300" y1="12" x2="300" y2="328" stroke="rgba(0,0,0,0.3)" stroke-width="1.5" />
-
-    <!-- ================= LEFT PAGE: CELESTIAL SYMBOLISM & REGISTRY ================= -->
-    <!-- Sketch Frame (Manga/Comic hand-drawn aesthetic border) -->
-    <g transform="translate(42, 45)">
-      <!-- Circle Frame for Eagle/Owl Emblem -->
-      <circle cx="110" cy="80" r="50" fill="#fdfbf7" stroke="#312e81" stroke-width="1" stroke-opacity="0.3" />
-      <circle cx="110" cy="80" r="46" fill="none" stroke="#dfc593" stroke-width="1.5" stroke-dasharray="6 3" />
+    <!-- ================= LEFT PAGE: KALI'S CELESTIAL LOGO ================= -->
+    <g transform="translate(42, 38)">
+      <!-- Starry Circle Frame -->
+      <circle cx="110" cy="75" r="48" fill="#fdfbf7" stroke="#312e81" stroke-width="0.8" stroke-opacity="0.25" />
+      <circle cx="110" cy="75" r="44" fill="none" stroke="#dfc593" stroke-width="1.2" stroke-dasharray="5 3" />
       
-      <!-- Hand-drawn style Eagle Silhouette -->
-      <!-- Soft Ethereal Flying Eagle Sketch -->
-      <path d="M 110,48 
-               C 114,62 135,66 148,58 
-               C 137,72 137,86 148,97 
-               C 162,94 169,101 180,98
-               C 152,119 135,115 125,136
-               C 132,150 139,164 107,150
-               C 75,164 82,150 89,136
-               C 79,115 62,119 34,98
-               C 45,101 52,94 66,97
-               C 77,86 77,72 66,58
-               C 79,66 100,62 110,48 Z" 
-            fill="#1e293b" fill-opacity="0.1" stroke="#2e3c54" stroke-width="1" stroke-opacity="0.65" />
+      <!-- Hand-drawn style soaring Eagle/Patronus vector -->
+      <path d="M 110,45 
+               C 113,58 132,62 144,55 
+               C 134,68 134,80 144,91 
+               C 157,88 163,95 173,92
+               C 147,112 131,108 122,128
+               C 128,141 134,154 105,141
+               C 76,154 82,141 88,128
+               C 79,108 63,112 37,92
+               C 47,95 53,88 66,91
+               C 76,80 76,68 66,55
+               C 78,62 97,58 110,45 Z" 
+            fill="#312e81" fill-opacity="0.08" stroke="#1e293b" stroke-width="1" stroke-opacity="0.6" />
       
-      <circle cx="110" cy="80" r="2.5" fill="#dfc593" />
-      <polygon points="110,50 114,57 121,57 115,62 117,69 110,65 103,69 105,62 99,57 106,57" fill="#dfc593" opacity="0.6" />
+      <!-- Golden core sparkles in bird -->
+      <circle cx="110" cy="75" r="2.5" fill="#dfc593" />
+      <polygon points="110,47 113,53 119,53 114,57 116,63 110,60 104,63 106,57 101,53 107,53" fill="#dfc593" opacity="0.6" />
 
-      <!-- Hogwarts Seal text -->
-      <text class="header-font" x="110" y="152" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="900" opacity="0.9">EAGLEEYE</text>
-      <text class="handwritten-font" x="110" y="170" font-size="12" fill="#57534e" text-anchor="middle" font-style="italic">"Expecto Coding"</text>
+      <!-- Title & Signature -->
+      <text class="title-text" x="110" y="145" font-size="16" fill="#1c1917" text-anchor="middle" opacity="0.9" filter="url(#glow-gold)">KALI</text>
+      <text class="script-text" x="110" y="162" font-size="12" fill="#57534e" text-anchor="middle" font-style="italic">"Expecto Patronum"</text>
 
-      <!-- Delicate Horizontal Line -->
-      <line x1="30" y1="184" x2="190" y2="184" stroke="#d6d3d1" stroke-width="1" />
-      <polygon points="110,181 113,184 110,187 107,184" fill="#dfc593" />
+      <line x1="30" y1="178" x2="190" y2="178" stroke="#dfc593" stroke-width="1.2" />
+      <polygon points="110,175 113,178 110,181 107,178" fill="#dfc593" />
 
-      <!-- Left Page Sub-Badges -->
-      <g transform="translate(10, 202)">
-        <!-- House Badge -->
+      <!-- Badges on Left Page -->
+      <g transform="translate(10, 194)">
         <rect x="0" y="0" width="90" height="20" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="0.8" />
         <circle cx="10" cy="10" r="3" fill="#2563eb" />
-        <text class="label-font" x="20" y="13" font-size="8" fill="#1e40af">RAVENCLAW</text>
+        <text class="small-label" x="20" y="13" font-size="8" fill="#1e40af">RAVENCLAW</text>
 
-        <!-- Wand Wood Badge -->
         <rect x="100" y="0" width="90" height="20" rx="10" fill="#fdf8e6" stroke="#d97706" stroke-width="0.8" />
         <circle cx="110" cy="10" r="3" fill="#b45309" />
-        <text class="label-font" x="120" y="13" font-size="8" fill="#78350f">ELDER WAND</text>
+        <text class="small-label" x="120" y="13" font-size="8" fill="#78350f">ELDER WAND</text>
       </g>
     </g>
 
-    <!-- ================= RIGHT PAGE: ANCIENT SPELL ENTRIES ================= -->
-    <g transform="translate(340, 45)">
-      <!-- Elegant Right Page Title -->
-      <text class="header-font" x="108" y="24" font-size="14" fill="#1e293b" text-anchor="middle" font-weight="900">THE SPELLBOOK LOG</text>
+    <!-- ================= RIGHT PAGE: PROFESSIONAL LEDGER ENTRIES ================= -->
+    <g transform="translate(340, 38)">
+      <text class="title-text" x="108" y="24" font-size="13" fill="#1c1917" text-anchor="middle" filter="url(#glow-gold)">SPECTRAL MEMOIRS</text>
       <line x1="28" y1="34" x2="188" y2="34" stroke="#dfc593" stroke-width="1.5" />
       
-      <!-- List of Magical Attributes styled as hand-inked ledger entries -->
-      <g transform="translate(0, 58)">
+      <!-- Hand-written ledger details -->
+      <g transform="translate(0, 52)">
         
-        <!-- Entry 1: Hogwarts Registry -->
+        <!-- Entry 1: Core Affinity -->
         <g transform="translate(10, 0)">
-          <text class="label-font" x="0" y="12" fill="#57534e">🏰 WIZARD REGISTRY:</text>
-          <text class="handwritten-font" x="0" y="29" font-size="13" font-weight="bold" fill="#1c1917">Ravenclaw Auror / Alchemist</text>
-          <line x1="0" y1="36" x2="200" y2="36" stroke="#e7e5e4" stroke-dasharray="2 2" />
+          <text class="small-label" x="0" y="12" fill="#78716c">🏰 CELESTIAL ALIGNMENT:</text>
+          <text class="script-text" x="0" y="28" font-size="13" font-weight="700" fill="#1c1917">Full-Stack Alchemist / Developer</text>
+          <line x1="0" y1="35" x2="200" y2="35" stroke="#e7e5e4" stroke-dasharray="2 2" />
         </g>
 
-        <!-- Entry 2: Chosen Class -->
+        <!-- Entry 2: Magic Fields -->
         <g transform="translate(10, 48)">
-          <text class="label-font" x="0" y="12" fill="#57534e">🪄 CORE ABILITIES:</text>
-          <text class="handwritten-font" x="0" y="29" font-size="13" font-weight="bold" fill="#1c1917">Dreamweaving &amp; Illusion</text>
-          <line x1="0" y1="36" x2="200" y2="36" stroke="#e7e5e4" stroke-dasharray="2 2" />
+          <text class="small-label" x="0" y="12" fill="#78716c">🪄 TRANSCENDENT focus:</text>
+          <text class="script-text" x="0" y="28" font-size="13" font-weight="700" fill="#1c1917">Ethereal UIs &amp; Magic Systems</text>
+          <line x1="0" y1="35" x2="200" y2="35" stroke="#e7e5e4" stroke-dasharray="2 2" />
         </g>
 
-        <!-- Entry 3: Domain Expansion -->
+        <!-- Entry 3: Focus -->
         <g transform="translate(10, 96)">
-          <text class="label-font" x="0" y="12" fill="#57534e">🌌 CHOSEN SANCTUARY:</text>
-          <text class="handwritten-font" x="0" y="29" font-size="13" font-weight="bold" fill="#0369a1" font-style="italic">"Infinite Repositories" Portal</text>
-          <line x1="0" y1="36" x2="200" y2="36" stroke="#e7e5e4" stroke-dasharray="2 2" />
+          <text class="small-label" x="0" y="12" fill="#78716c">🌌 CHOSEN CHRONICLE:</text>
+          <text class="script-text" x="0" y="28" font-size="13" font-weight="700" fill="#0369a1" font-style="italic">Weaving Wind, Rain &amp; Clean Code</text>
+          <line x1="0" y1="35" x2="200" y2="35" stroke="#e7e5e4" stroke-dasharray="2 2" />
         </g>
 
-        <!-- Entry 4: Signature Charm -->
+        <!-- Entry 4: active spells -->
         <g transform="translate(10, 144)">
-          <text class="label-font" x="0" y="12" fill="#57534e">✨ SIGNATURE CHARM:</text>
-          <text class="handwritten-font" x="0" y="29" font-size="13" font-weight="bold" fill="#b45309">Expecto Coding! 🔮</text>
-          <line x1="0" y1="36" x2="200" y2="36" stroke="#e7e5e4" stroke-dasharray="2 2" />
+          <text class="small-label" x="0" y="12" fill="#78716c">🔮 SIGNATURE CHARM:</text>
+          <text class="script-text" x="0" y="28" font-size="13" font-weight="700" fill="#b45309">Expecto Clean Code! ⚡</text>
+          <line x1="0" y1="35" x2="200" y2="35" stroke="#e7e5e4" stroke-dasharray="2 2" />
         </g>
 
-        <!-- Entry 5: Awakened Ability -->
+        <!-- Entry 5: magic engine -->
         <g transform="translate(10, 192)">
-          <text class="label-font" x="0" y="12" fill="#57534e">🧬 TRANSMUTATION ART:</text>
-          <text class="handwritten-font" x="0" y="29" font-size="12" font-weight="bold" fill="#be185d">Syntactical Alchemy</text>
+          <text class="small-label" x="0" y="12" fill="#78716c">🍃 SYSTEM FOCUS:</text>
+          <text class="script-text" x="0" y="28" font-size="12" font-weight="700" fill="#047857">Dreamy Interactive Design</text>
         </g>
 
       </g>
     </g>
-
   </g>
-  
-  <!-- Tiny Floating Sparkles/Astrological Stars near the Spellbook -->
-  <g fill="#ffd700" class="sparkle-pulse">
-    <!-- Star Sparkle 1 -->
-    <path d="M 80,240 Q 85,240 85,235 Q 85,240 90,240 Q 85,240 85,245 Q 85,240 80,240" />
-    <!-- Star Sparkle 2 -->
-    <path d="M 720,280 Q 723,280 723,277 Q 723,280 726,280 Q 723,280 723,283 Q 723,280 720,280" fill="#e0e7ff" />
-    <!-- Star Sparkle 3 -->
-    <path d="M 400,20 Q 404,20 404,16 Q 404,20 408,20 Q 404,20 404,24 Q 404,20 400,20" />
+
+  <!-- ================= GENTLY SWAYING GRASS AT BOTTOM (RAINY/GRASSY VIBE) ================= -->
+  <!-- Silhouettes of swaying grass blades lining the bottom edge -->
+  <g fill="#14261c" opacity="0.5">
+    <!-- Blade 1 -->
+    <path d="M 0,450 C 15,410 25,400 30,380 C 27,400 15,425 0,450 Z" class="grass-blade" />
+    <!-- Blade 2 -->
+    <path d="M 40,450 C 50,420 70,410 75,395 C 65,415 50,430 40,450 Z" class="grass-blade-fast" />
+    <!-- Blade 3 -->
+    <path d="M 120,450 C 125,415 140,405 150,385 C 135,410 125,430 120,450 Z" class="grass-blade" />
+    <!-- Blade 4 -->
+    <path d="M 210,450 C 220,425 245,415 250,400 C 235,420 220,435 210,450 Z" class="grass-blade-fast" />
+    <!-- Blade 5 -->
+    <path d="M 310,450 C 315,410 330,400 335,375 C 325,405 315,425 310,450 Z" class="grass-blade" />
+    <!-- Blade 6 -->
+    <path d="M 450,450 C 460,420 480,415 485,390 C 475,410 460,430 450,450 Z" class="grass-blade-fast" />
+    <!-- Blade 7 -->
+    <path d="M 580,450 C 590,410 610,400 615,380 C 605,405 590,425 580,450 Z" class="grass-blade" />
+    <!-- Blade 8 -->
+    <path d="M 690,450 C 700,425 725,410 730,395 C 715,415 700,430 690,450 Z" class="grass-blade-fast" />
+    <!-- Blade 9 -->
+    <path d="M 760,450 C 770,415 790,405 800,385 C 785,410 770,430 760,450 Z" class="grass-blade" />
+  </g>
+
+  <!-- Lighter Green Overlay Grass for Depth -->
+  <g fill="#213a29" opacity="0.7">
+    <!-- Blade 1b -->
+    <path d="M 20,450 C 25,420 35,410 40,395 C 35,415 25,430 20,450 Z" class="grass-blade-fast" />
+    <!-- Blade 2b -->
+    <path d="M 80,450 C 90,425 105,420 110,400 C 100,420 90,435 80,450 Z" class="grass-blade" />
+    <!-- Blade 3b -->
+    <path d="M 170,450 C 175,415 190,410 195,390 C 185,410 175,430 170,450 Z" class="grass-blade-fast" />
+    <!-- Blade 4b -->
+    <path d="M 270,450 C 275,420 290,415 295,395 C 285,415 275,430 270,450 Z" class="grass-blade" />
+    <!-- Blade 5b -->
+    <path d="M 390,450 C 395,415 410,405 415,385 C 405,410 395,430 390,450 Z" class="grass-blade-fast" />
+    <!-- Blade 6b -->
+    <path d="M 520,450 C 525,420 540,415 545,395 C 535,415 525,430 520,450 Z" class="grass-blade" />
+    <!-- Blade 7b -->
+    <path d="M 640,450 C 645,425 660,420 665,400 C 655,420 645,435 640,450 Z" class="grass-blade-fast" />
+    <!-- Blade 8b -->
+    <path d="M 730,450 C 735,420 750,415 755,390 C 745,410 735,430 730,450 Z" class="grass-blade" />
+  </g>
+
+  <!-- Glowing Stardust/Fireflies floating in Grass -->
+  <g fill="#ffd700" class="glow-pulse">
+    <circle cx="50" cy="410" r="1.5" />
+    <circle cx="140" cy="420" r="2.5" />
+    <circle cx="230" cy="390" r="1.5" />
+    <circle cx="320" cy="430" r="2.0" />
+    <circle cx="490" cy="405" r="2.5" />
+    <circle cx="600" cy="425" r="1.5" />
+    <circle cx="710" cy="395" r="2.0" />
   </g>
 </svg>

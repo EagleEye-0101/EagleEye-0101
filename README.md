@@ -1,10 +1,10 @@
-# 🌌 THE CELESTIAL CHRONICLES
+# 🌌 THE ETHEREAL CHRONICLES OF KALI
 
 <div align="center">
   <!-- Dynamic Magical Welcome Banner -->
   <p align="center">
     <a href="https://github.com/denvercoder1/readme-typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=26&pause=800&color=FFD700&background=00000000&width=650&height=50&lines=✦+EXPECTO+PATRONUM+✦;🌌+WELCOME+TO+THE+EAGLEEYE+DOMAIN;⚡+MISCHIEF+MANAGED...;🔮+ENTER+THE+ILLUSIONISTS+REALM" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=26&pause=800&color=FFD700&background=00000000&width=650&height=50&lines=✦+EXPECTO+PATRONUM+✦;🌌+WELCOME+TO+KALI'S+DOMAIN;⚡+MISCHIEF+MANAGED...;🔮+ENTER+THE+ILLUSIONISTS+REALM" alt="Typing SVG" />
     </a>
   </p>
 
@@ -14,8 +14,8 @@
 <br />
 
 <div align="center" style="margin-top: 15px; margin-bottom: 30px;">
-  <!-- Ancient Spellbook Journal HUD Window (The Centerpiece) -->
-  <img src="status_window.svg" alt="EagleEye's Celestial Spellbook" width="100%" style="max-width: 800px; border-radius: 20px; box-shadow: 0 0 45px rgba(223, 197, 147, 0.35);" />
+  <!-- Ancient Spellbook Journal (The Centerpiece featuring Ethereal Wind, Rain, and Swaying Grass) -->
+  <img src="status_window.svg" alt="Kali's Ethereal Spellbook" width="100%" style="max-width: 800px; border-radius: 20px; box-shadow: 0 0 45px rgba(223, 197, 147, 0.35);" />
 </div>
 
 <div align="center">
@@ -24,9 +24,61 @@
 
 <br />
 
-## 🔮 THE SPELLBOOK: MAGICAL ABILITIES (TECH STACK)
+## 📖 THE LORE OF CREATION (ABOUT ME)
 
-*“The wand chooses the wizard, Mr. Potter, but the framework chooses the developer.”*
+Welcome to the sanctuary. I am **Kali**, a full-stack interface alchemist, digital architect, and software craftsman. I specialize in weaving fluid visual interfaces, robust data systems, and interactive experiences out of raw code. Guided by a love for clean architecture, elegant typography, and rich visual storytelling, I transform complex ideas into stable, high-fidelity digital realities.
+
+Whether crafting responsive mobile architectures, designing custom vector animation engines, or structuring scalable cloud databases, I strive to make every line of code feel purposeful, intuitive, and alive.
+
+<br />
+
+## 💫 CURRENT TRANSMUTATIONS (ACTIVE ARTIFACTS)
+
+*Here are the high-fidelity repositories and projects currently being conjured in my digital workshop:*
+
+<br />
+
+<div align="center">
+  <table border="0" cellpadding="8" cellspacing="8" width="100%" style="border-collapse: separate; border-spacing: 15px; background-color: #0c0d18; border-radius: 16px; border: 1.5px solid #272e4b; box-shadow: 0 0 25px rgba(223, 197, 147, 0.15);">
+    <tr>
+      <!-- Project 1: Banking HUD -->
+      <td width="33%" valign="top" style="background: rgba(223, 197, 147, 0.04); border-radius: 12px; border: 1.5px solid #dfc593; padding: 20px;">
+        <span style="font-size: 24px;">💰</span><br />
+        <strong>Aetherial Banking HUD</strong>
+        <p style="margin: 8px 0;"><img src="https://img.shields.io/badge/Core-React_Native-eff6ff?style=flat-square&color=%231e3a8a" /></p>
+        <font size="2" color="#ebdcb9">
+          A high-fidelity mobile banking recreation featuring custom-designed transaction ledgers, interactive dashboard animations, and a seamless auto-transmuting PDF generator for statements.
+        </font>
+      </td>
+      <!-- Project 2: EagleEye Gateway -->
+      <td width="33%" valign="top" style="background: rgba(223, 197, 147, 0.04); border-radius: 12px; border: 1.5px solid #dfc593; padding: 20px;">
+        <span style="font-size: 24px;">🦅</span><br />
+        <strong>EagleEye Gateway</strong>
+        <p style="margin: 8px 0;"><img src="https://img.shields.io/badge/Core-Responsive_SVG-fdf8e6?style=flat-square&color=%2378350f" /></p>
+        <font size="2" color="#ebdcb9">
+          An immersive, animated profile showcase utilizing responsive vector canvases. Embeds wind, rain, mist, and organic grass-swaying keyframe cycles to elevate markdown layout aesthetics.
+        </font>
+      </td>
+      <!-- Project 3: Auror Intelligence -->
+      <td width="33%" valign="top" style="background: rgba(223, 197, 147, 0.04); border-radius: 12px; border: 1.5px solid #dfc593; padding: 20px;">
+        <span style="font-size: 24px;">🧪</span><br />
+        <strong>Auror Intel Engine</strong>
+        <p style="margin: 8px 0;"><img src="https://img.shields.io/badge/Core-Node.js_/_Firebase-fcf6f6?style=flat-square&color=%239d174d" /></p>
+        <font size="2" color="#ebdcb9">
+          An autonomous assistant coordination suite designed to parse development tasks, execute file transmutation routines, and manage staging procedures with absolute accuracy.
+        </font>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+<div align="center">
+  🔮 ⋆ ✦ ─── ✦ ⋆ 🔮
+</div>
+<br />
+
+## 🪄 THE SPELLBOOK: MAGICAL ABILITIES (TECH STACK)
 
 <br />
 
@@ -79,71 +131,22 @@
 
 <br />
 <div align="center">
-  🔮 ⋆ ✦ ─── ✦ ⋆ 🔮
+  ✨ ✧ ─── 🌌 ─── ✧ ✨
 </div>
 <br />
 
-## ✨ CELESTIAL ALCHEMY & PERFORMANCE STATS
+## 📊 CELESTIAL ALCHEMY & PERFORMANCE STATS
 
 <div align="center">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent;">
     <tr>
       <td style="padding: 10px; border: none;">
         <!-- Custom Magic Colored GitHub Readme Stats Card -->
-        <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=EagleEye-0101&show_icons=true&bg_color=0c0d18&title_color=ffd700&text_color=e0e7ff&icon_color=dfc593&border_color=272e4b&border_radius=12" alt="EagleEye's GitHub Stats" />
+        <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=EagleEye-0101&show_icons=true&bg_color=0c0d18&title_color=ffd700&text_color=e0e7ff&icon_color=dfc593&border_color=272e4b&border_radius=12" alt="Kali's GitHub Stats" />
       </td>
       <td style="padding: 10px; border: none;">
         <!-- Custom Magic Colored Streak Stats Card -->
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=EagleEye-0101&theme=tokyonight&background=0c0d18&title=ffd700&sideNums=e0e7ff&sideTitle=dfc593&stroke=272e4b&ring=ffd700&fire=dfc593&border_radius=12" alt="EagleEye's Streak Stats" />
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br />
-<div align="center">
-  ✨ ✧ ─── 🌌 ─── ✧ ✨
-</div>
-<br />
-
-## 🌌 THE MULTIVERSE ARCHIVE (CURRENTLY BINGING)
-
-*Here are the calm space-time portals I am currently traversing across the pop culture multiverse!*
-
-<br />
-
-<div align="center">
-  <table border="0" cellpadding="8" cellspacing="8" width="100%" style="border-collapse: separate; border-spacing: 12px; background-color: #0c0d18; border-radius: 16px; border: 1.5px solid #272e4b; box-shadow: 0 0 25px rgba(223, 197, 147, 0.15);">
-    <tr align="center">
-      <td width="20%" style="background: rgba(223, 197, 147, 0.05); border-radius: 12px; border: 1px solid #dfc593; padding: 15px;">
-        <span style="font-size: 24px;">🪄</span><br />
-        <strong>HARRY POTTER</strong><br />
-        <p style="margin: 6px 0;"><img src="https://img.shields.io/badge/House-Slytherin-0f5132?style=flat-square" /></p>
-        <font size="2" color="#ebdcb9"><em>Slytherin's Secret</em></font>
-      </td>
-      <td width="20%" style="background: rgba(223, 197, 147, 0.05); border-radius: 12px; border: 1px solid #dfc593; padding: 15px;">
-        <span style="font-size: 24px;">🗡️</span><br />
-        <strong>MANHWA</strong><br />
-        <p style="margin: 6px 0;"><img src="https://img.shields.io/badge/Monarch-Shadow-0284c7?style=flat-square" /></p>
-        <font size="2" color="#ebdcb9"><em>Solo Leveling</em></font>
-      </td>
-      <td width="20%" style="background: rgba(223, 197, 147, 0.05); border-radius: 12px; border: 1px solid #dfc593; padding: 15px;">
-        <span style="font-size: 24px;">⛩️</span><br />
-        <strong>ANIME</strong><br />
-        <p style="margin: 6px 0;"><img src="https://img.shields.io/badge/Domain-Expansion-7e22ce?style=flat-square" /></p>
-        <font size="2" color="#ebdcb9"><em>Jujutsu Kaisen</em></font>
-      </td>
-      <td width="20%" style="background: rgba(223, 197, 147, 0.05); border-radius: 12px; border: 1px solid #dfc593; padding: 15px;">
-        <span style="font-size: 24px;">🔥</span><br />
-        <strong>MANGA</strong><br />
-        <p style="margin: 6px 0;"><img src="https://img.shields.io/badge/Breathing-Hinokami-d97706?style=flat-square" /></p>
-        <font size="2" color="#ebdcb9"><em>Demon Slayer</em></font>
-      </td>
-      <td width="20%" style="background: rgba(223, 197, 147, 0.05); border-radius: 12px; border: 1px solid #dfc593; padding: 15px;">
-        <span style="font-size: 24px;">🕷️</span><br />
-        <strong>COMICS</strong><br />
-        <p style="margin: 6px 0;"><img src="https://img.shields.io/badge/Spider--Verse-Miles-e11d48?style=flat-square" /></p>
-        <font size="2" color="#ebdcb9"><em>Spider-Man</em></font>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=EagleEye-0101&theme=tokyonight&background=0c0d18&title=ffd700&sideNums=e0e7ff&sideTitle=dfc593&stroke=272e4b&ring=ffd700&fire=dfc593&border_radius=12" alt="Kali's Streak Stats" />
       </td>
     </tr>
   </table>
