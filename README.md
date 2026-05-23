@@ -1,70 +1,87 @@
-# 🌌 UNLOCKING THE EAGLEEYE'S DOMAIN!
+# 🌌 THE CELESTIAL CHRONICLES
 
 <div align="center">
   <!-- Dynamic Magical Welcome Banner -->
   <p align="center">
     <a href="https://github.com/denvercoder1/readme-typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=30&pause=800&color=FFD700&background=00000000&width=700&height=55&lines=✦+EXPECTO+CODING+✦;🌌+WELCOME+TO+THE+EAGLEEYE+DOMAIN;⚡+MISCHIEF+MANAGED...;🔮+ENTER+THE+ILLUSIONISTS+REALM" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=26&pause=800&color=FFD700&background=00000000&width=650&height=50&lines=✦+EXPECTO+PATRONUM+✦;🌌+WELCOME+TO+THE+EAGLEEYE+DOMAIN;⚡+MISCHIEF+MANAGED...;🔮+ENTER+THE+ILLUSIONISTS+REALM" alt="Typing SVG" />
     </a>
   </p>
 
-  <!-- Custom Generated Anime/Manhwa/Harry Potter Mashup Banner -->
-  <img src="github_profile_banner.png" alt="EagleEye's Ethereal Banner" width="100%" style="border-radius: 16px; border: 2.5px solid #dfc593; box-shadow: 0 0 35px rgba(223, 197, 147, 0.45);" />
+  <p><em>“We’ve all got both light and dark inside us. What matters is the part we choose to act on. That’s who we really are.”</em></p>
 </div>
 
 <br />
 
----
-
-## 📖 THE WIZARD'S ANCIENT JOURNAL | CELESTIAL CORE
-
-<div align="center" style="margin-top: 20px; margin-bottom: 20px;">
-  <!-- Ancient Spellbook Journal HUD Window -->
-  <img src="status_window.svg" alt="EagleEye Spellbook Journal" width="100%" style="max-width: 800px; border-radius: 20px; box-shadow: 0 0 35px rgba(223, 197, 147, 0.35);" />
+<div align="center" style="margin-top: 15px; margin-bottom: 30px;">
+  <!-- Ancient Spellbook Journal HUD Window (The Centerpiece) -->
+  <img src="status_window.svg" alt="EagleEye's Celestial Spellbook" width="100%" style="max-width: 800px; border-radius: 20px; box-shadow: 0 0 45px rgba(223, 197, 147, 0.35);" />
 </div>
 
----
+<div align="center">
+  ✨ 📜 ─── ✦ ─── 📜 ✨
+</div>
+
+<br />
 
 ## 🔮 THE SPELLBOOK: MAGICAL ABILITIES (TECH STACK)
 
 *“The wand chooses the wizard, Mr. Potter, but the framework chooses the developer.”*
 
-<details open>
-  <summary><b>🪄 AETHERIAL TRANSMUTATION (Frontend Mastery)</b></summary>
-  <br />
-  <p align="left">
-    <img src="https://img.shields.io/badge/javascript-%2311131e.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-    <img src="https://img.shields.io/badge/react-%2311131e.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-    <img src="https://img.shields.io/badge/react_native-%2311131e.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
-    <img src="https://img.shields.io/badge/html5-%2311131e.svg?style=for-the-badge&logo=html5&logoColor=orange" />
-    <img src="https://img.shields.io/badge/css3-%2311131e.svg?style=for-the-badge&logo=css3&logoColor=%231572B6" />
-    <img src="https://img.shields.io/badge/bootstrap-%2311131e.svg?style=for-the-badge&logo=bootstrap&logoColor=violet" />
-  </p>
-</details>
+<br />
 
-<details open>
-  <summary><b>🔮 COSMIC CONJURATION (Backend & Alchemy)</b></summary>
-  <br />
-  <p align="left">
-    <img src="https://img.shields.io/badge/node.js-%2311131e.svg?style=for-the-badge&logo=node.js&logoColor=6DA55F" />
-    <img src="https://img.shields.io/badge/express.js-%2311131e.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
-    <img src="https://img.shields.io/badge/firebase-%2311131e.svg?style=for-the-badge&logo=firebase&logoColor=ffd700" />
-    <img src="https://img.shields.io/badge/python-%2311131e.svg?style=for-the-badge&logo=python&logoColor=3670A0" />
-  </p>
-</details>
+<div align="center">
+  <table border="0" cellpadding="10" cellspacing="10" width="100%" style="border-collapse: separate; border-spacing: 15px; background: transparent;">
+    <tr>
+      <!-- Left Panel: Frontend Transmutation -->
+      <td width="50%" valign="top" style="background: rgba(223, 197, 147, 0.04); border-radius: 16px; border: 1.5px solid #dfc593; padding: 20px; box-shadow: 0 0 15px rgba(223, 197, 147, 0.05);">
+        <h3 align="center">🪄 AETHERIAL TRANSMUTATION</h3>
+        <p align="center"><font size="2" color="#ebdcb9"><em>Crafting the visible tapestry of dreams (Frontend)</em></font></p>
+        <br />
+        <p align="center">
+          <img src="https://img.shields.io/badge/javascript-%2311131e.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+          <img src="https://img.shields.io/badge/react-%2311131e.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+          <img src="https://img.shields.io/badge/react_native-%2311131e.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+          <img src="https://img.shields.io/badge/html5-%2311131e.svg?style=for-the-badge&logo=html5&logoColor=orange" />
+          <img src="https://img.shields.io/badge/css3-%2311131e.svg?style=for-the-badge&logo=css3&logoColor=%231572B6" />
+          <img src="https://img.shields.io/badge/bootstrap-%2311131e.svg?style=for-the-badge&logo=bootstrap&logoColor=violet" />
+        </p>
+      </td>
+      <!-- Right Panel: Backend Conjuration -->
+      <td width="50%" valign="top" style="background: rgba(223, 197, 147, 0.04); border-radius: 16px; border: 1.5px solid #dfc593; padding: 20px; box-shadow: 0 0 15px rgba(223, 197, 147, 0.05);">
+        <h3 align="center">🔮 COSMIC CONJURATION</h3>
+        <p align="center"><font size="2" color="#ebdcb9"><em>Weaving alchemical formulas and system laws (Backend)</em></font></p>
+        <br />
+        <p align="center">
+          <img src="https://img.shields.io/badge/node.js-%2311131e.svg?style=for-the-badge&logo=node.js&logoColor=6DA55F" />
+          <img src="https://img.shields.io/badge/express.js-%2311131e.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
+          <img src="https://img.shields.io/badge/firebase-%2311131e.svg?style=for-the-badge&logo=firebase&logoColor=ffd700" />
+          <img src="https://img.shields.io/badge/python-%2311131e.svg?style=for-the-badge&logo=python&logoColor=3670A0" />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <!-- Full-Width Bottom Panel: Wards & Tools -->
+      <td colspan="2" valign="top" style="background: rgba(223, 197, 147, 0.04); border-radius: 16px; border: 1.5px solid #272e4b; padding: 20px; box-shadow: 0 0 15px rgba(39, 46, 75, 0.05);">
+        <h3 align="center">🛡️ DEFENSE AGAINST THE DARK REPOS</h3>
+        <p align="center"><font size="2" color="#e0e7ff"><em>Alchemical relics, version control wards, and tools of order</em></font></p>
+        <br />
+        <p align="center">
+          <img src="https://img.shields.io/badge/git-%2311131e.svg?style=for-the-badge&logo=git&logoColor=%23F05033" />
+          <img src="https://img.shields.io/badge/github-%2311131e.svg?style=for-the-badge&logo=github&logoColor=white" />
+          <img src="https://img.shields.io/badge/visual_studio_code-%2311131e.svg?style=for-the-badge&logo=visual-studio-code&logoColor=%23007ACC" />
+          <img src="https://img.shields.io/badge/powershell-%2311131e.svg?style=for-the-badge&logo=powershell&logoColor=%235391FE" />
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
-<details open>
-  <summary><b>🛡️ DEFENSE AGAINST THE DARK REPOS (Relics & Tools)</b></summary>
-  <br />
-  <p align="left">
-    <img src="https://img.shields.io/badge/git-%2311131e.svg?style=for-the-badge&logo=git&logoColor=%23F05033" />
-    <img src="https://img.shields.io/badge/github-%2311131e.svg?style=for-the-badge&logo=github&logoColor=white" />
-    <img src="https://img.shields.io/badge/visual_studio_code-%2311131e.svg?style=for-the-badge&logo=visual-studio-code&logoColor=%23007ACC" />
-    <img src="https://img.shields.io/badge/powershell-%2311131e.svg?style=for-the-badge&logo=powershell&logoColor=%235391FE" />
-  </p>
-</details>
-
----
+<br />
+<div align="center">
+  🔮 ⋆ ✦ ─── ✦ ⋆ 🔮
+</div>
+<br />
 
 ## ✨ CELESTIAL ALCHEMY & PERFORMANCE STATS
 
@@ -83,7 +100,11 @@
   </table>
 </div>
 
----
+<br />
+<div align="center">
+  ✨ ✧ ─── 🌌 ─── ✧ ✨
+</div>
+<br />
 
 ## 🌌 THE MULTIVERSE ARCHIVE (CURRENTLY BINGING)
 
@@ -94,7 +115,7 @@
 <div align="center">
   <table border="0" cellpadding="8" cellspacing="8" width="100%" style="border-collapse: separate; border-spacing: 12px; background-color: #0c0d18; border-radius: 16px; border: 1.5px solid #272e4b; box-shadow: 0 0 25px rgba(223, 197, 147, 0.15);">
     <tr align="center">
-      <td width="20%" style="background: rgba(223, 197, 147, 0.05); border-radius: 12px; border: 1.5px solid #dfc593; padding: 15px;">
+      <td width="20%" style="background: rgba(223, 197, 147, 0.05); border-radius: 12px; border: 1px solid #dfc593; padding: 15px;">
         <span style="font-size: 24px;">🪄</span><br />
         <strong>HARRY POTTER</strong><br />
         <p style="margin: 6px 0;"><img src="https://img.shields.io/badge/House-Slytherin-0f5132?style=flat-square" /></p>
@@ -128,7 +149,11 @@
   </table>
 </div>
 
----
+<br />
+<div align="center">
+  ✨ 📜 ─── ✦ ─── 📜 ✨
+</div>
+<br />
 
 ## 🦉 SEND AN OWL (TELEPATHIC CHANNEL)
 
