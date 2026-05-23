@@ -3,7 +3,7 @@
 <div align="center">
   <!-- Dynamic Magical Welcome Banner -->
   <p align="center">
-    <a href="https://git.io/typing-svg">
+    <a href="https://github.com/denvercoder1/readme-typing-svg">
       <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=30&pause=800&color=FFD700&background=00000000&width=700&height=55&lines=✦+EXPECTO+CODING+✦;🌌+WELCOME+TO+THE+EAGLEEYE+DOMAIN;⚡+MISCHIEF+MANAGED...;🔮+ENTER+THE+ILLUSIONISTS+REALM" alt="Typing SVG" />
     </a>
   </p>
@@ -73,7 +73,7 @@
     <tr>
       <td style="padding: 10px; border: none;">
         <!-- Custom Magic Colored GitHub Readme Stats Card -->
-        <img src="https://github-readme-stats.vercel.app/api?username=EagleEye-0101&show_icons=true&hide_title=false&hide_rank=false&bg_color=060814&title_color=ffd700&text_color=cbd5e1&icon_color=00bfff&border_color=4f46e5&border_radius=12" alt="EagleEye's GitHub Stats" />
+        <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=EagleEye-0101&show_icons=true&bg_color=060814&title_color=ffd700&text_color=cbd5e1&icon_color=00bfff&border_color=4f46e5&border_radius=12" alt="EagleEye's GitHub Stats" />
       </td>
       <td style="padding: 10px; border: none;">
         <!-- Custom Magic Colored Streak Stats Card -->
