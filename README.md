@@ -149,6 +149,6 @@
   <br />
   <!-- Dynamic visitor counter badge wrapped in portal magic -->
   <p>
-    <img src="https://profile-counter.glitch.me/EagleEye-0101/count.svg" alt="Mana Stream Active Count" />
+    <img src="https://komarev.com/ghpvc/?username=EagleEye-0101&color=00bfff&style=flat-square&label=MANA+STREAM+ACTIVE" alt="Mana Stream Active Count" />
   </p>
 </div>
