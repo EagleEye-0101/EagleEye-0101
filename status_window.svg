@@ -1,0 +1,318 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="40%" stop-color="#070a1e" />
+      <stop offset="80%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    
+    <!-- Neon Glow Filters -->
+    <filter id="cyan-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="rose-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Linear Gradients for Stats Bars -->
+    <linearGradient id="cyan-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#00bfff" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    
+    <linearGradient id="gold-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eab308" />
+      <stop offset="70%" stop-color="#ffd700" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+
+    <linearGradient id="rose-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <!-- Style Sheet for Dreamy/Holographic Animations -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&amp;family=Orbitron:wght@600;800;900&amp;family=Plus+Jakarta+Sans:wght@500;700;800&amp;display=swap');
+      
+      .title-font {
+        font-family: 'Cinzel Decorative', serif;
+      }
+      
+      .sub-font {
+        font-family: 'Orbitron', sans-serif;
+      }
+      
+      .body-font {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+      }
+
+      /* Magical Animations */
+      .pulse-mana {
+        animation: pulse-mana-anim 2.5s infinite ease-in-out;
+      }
+
+      .pulse-star {
+        animation: pulse-star-anim 3s infinite ease-in-out;
+      }
+
+      .portal-flow {
+        animation: portal-flow-anim 20s infinite linear;
+        transform-origin: 180px 225px;
+      }
+
+      .portal-flow-reverse {
+        animation: portal-flow-rev-anim 25s infinite linear;
+        transform-origin: 180px 225px;
+      }
+
+      .card-float {
+        animation: card-float-anim 6s infinite ease-in-out;
+      }
+
+      .neon-flicker {
+        animation: neon-flicker-anim 4s infinite ease-in-out;
+      }
+
+      /* Constellations & Star Blinking */
+      .star-1 { animation: blink-anim 3s infinite ease-in-out; }
+      .star-2 { animation: blink-anim 4s infinite ease-in-out 1s; }
+      .star-3 { animation: blink-anim 5s infinite ease-in-out 2.5s; }
+
+      @keyframes pulse-mana-anim {
+        0%, 100% { opacity: 0.75; filter: drop-shadow(0 0 3px #06b6d4) drop-shadow(0 0 8px #00bfff); }
+        50% { opacity: 1; filter: drop-shadow(0 0 8px #06b6d4) drop-shadow(0 0 18px #00bfff); }
+      }
+
+      @keyframes pulse-star-anim {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px #ffd700); }
+        50% { transform: scale(1.15); filter: drop-shadow(0 0 8px #ffd700); }
+      }
+
+      @keyframes portal-flow-anim {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      @keyframes portal-flow-rev-anim {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+      }
+
+      @keyframes card-float-anim {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+
+      @keyframes neon-flicker-anim {
+        0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+          opacity: 0.95;
+          filter: drop-shadow(0 0 6px #06b6d4) drop-shadow(0 0 15px #3b82f6);
+        }
+        20%, 24%, 55% {
+          opacity: 0.5;
+          filter: drop-shadow(0 0 2px #06b6d4);
+        }
+      }
+
+      @keyframes blink-anim {
+        0%, 100% { opacity: 0.2; }
+        50% { opacity: 0.95; }
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Space Canvas -->
+  <rect width="800" height="450" rx="24" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2" />
+  
+  <!-- Holographic Starfield background -->
+  <g fill="#ffffff">
+    <circle cx="90" cy="60" r="1.2" class="star-1" />
+    <circle cx="280" cy="70" r="1" class="star-3" />
+    <circle cx="340" cy="30" r="1.5" class="star-2" />
+    <circle cx="120" cy="390" r="1" class="star-1" />
+    <circle cx="310" cy="410" r="2" class="star-2" />
+    <circle cx="480" cy="50" r="1.2" class="star-3" />
+    <circle cx="580" cy="380" r="1.5" class="star-1" />
+    <circle cx="710" cy="70" r="1" class="star-2" />
+    <circle cx="740" cy="360" r="1.8" class="star-3" />
+  </g>
+
+  <!-- Mystical Constellations in Background -->
+  <g stroke="#ffffff" stroke-width="0.5" opacity="0.15" fill="none">
+    <!-- Ravenclaw / Eagle Constellation outline -->
+    <polyline points="120,60 180,45 230,70 190,110 120,60" />
+    <polyline points="180,45 180,120" />
+    <polyline points="190,110 250,150 280,110" />
+    <polyline points="120,60 70,110 110,130" />
+    <!-- Golden Core Stars in Constellation -->
+    <circle cx="120" cy="60" r="3" fill="#ffd700" class="star-1" />
+    <circle cx="180" cy="45" r="3.5" fill="#ffd700" class="star-2" />
+    <circle cx="230" cy="70" r="3" fill="#ffd700" class="star-3" />
+    <circle cx="190" cy="110" r="3" fill="#ffd700" class="star-1" />
+  </g>
+
+  <!-- Dreamweaver Grid Lines -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <!-- Concentric grid lines projecting from the portal -->
+    <line x1="0" y1="225" x2="800" y2="225" />
+    <line x1="400" y1="0" x2="400" y2="450" />
+    <line x1="0" y1="0" x2="800" y2="450" />
+    <line x1="0" y1="450" x2="800" y2="0" />
+  </g>
+
+  <!-- Outer Neon Frame with Dream Aura -->
+  <rect x="15" y="15" width="770" height="420" rx="20" fill="none" stroke="#4f46e5" stroke-width="1.5" opacity="0.25" />
+  <rect x="20" y="20" width="760" height="410" rx="18" fill="none" stroke="#06b6d4" stroke-width="2.5" class="neon-flicker" />
+  
+  <!-- Tiny magical runes in corners -->
+  <g fill="#00bfff" opacity="0.6" font-family="'Orbitron', sans-serif" font-size="8">
+    <text x="35" y="42">🌌 SYSTEM_ONLINE</text>
+    <text x="765" y="42" text-anchor="end">SEC_RANK_S 🔮</text>
+    <text x="35" y="422">★ DREAMWEAVER</text>
+    <text x="765" y="422" text-anchor="end">⚡ VER_1.01</text>
+  </g>
+
+  <!-- ================= LEFT COLUMN: HOLOGRAPHIC CHARACTER MODULE ================= -->
+  <g transform="translate(45, 45)" class="card-float">
+    <!-- Cosmic Glowing Backdrop of Avatar -->
+    <rect x="0" y="0" width="270" height="360" rx="16" fill="#030712" fill-opacity="0.75" stroke="#4f46e5" stroke-width="1.5" />
+    <rect x="6" y="6" width="258" height="348" rx="12" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.4" />
+    
+    <!-- Portal Rings spinning in the avatar backdrop -->
+    <g transform="translate(135, 120)">
+      <circle cx="0" cy="0" r="70" fill="none" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="10 20" class="portal-flow" opacity="0.3" />
+      <circle cx="0" cy="0" r="60" fill="none" stroke="#a855f7" stroke-width="1" stroke-dasharray="4 8" class="portal-flow-reverse" opacity="0.4" />
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#00bfff" stroke-width="2" stroke-dasharray="15 5" class="portal-flow" opacity="0.6" filter="url(#cyan-glow)" />
+    </g>
+
+    <!-- Stylized Dream/Illusion Eagle Silhouette Avatar Art -->
+    <path d="M 135,50 
+             C 145,70 175,75 195,65 
+             C 180,85 180,105 195,120 
+             C 215,115 225,125 240,120
+             C 200,150 175,145 160,175
+             C 170,195 180,215 135,195
+             C 90,215 100,195 110,175
+             C 95,145 70,150 30,120
+             C 45,125 55,115 75,120
+             C 90,105 90,85 75,65
+             C 95,75 125,70 135,50 Z" 
+          fill="url(#cyan-bar)" opacity="0.35" filter="url(#cyan-glow)" />
+    
+    <!-- Centered S-Class Gemstone Overlay -->
+    <g transform="translate(135, 120)">
+      <polygon points="0,-24 20,0 0,24 -20,0" fill="#030712" stroke="#ffd700" stroke-width="2.5" class="pulse-star" filter="url(#gold-glow)" />
+      <text class="sub-font" font-size="14" font-weight="900" fill="#ffd700" text-anchor="middle" dy="4">S</text>
+    </g>
+
+    <!-- Character Profile Details -->
+    <text class="title-font" x="135" y="225" font-size="20" fill="#ffd700" text-anchor="middle" font-weight="900" filter="url(#gold-glow)" letter-spacing="1">EAGLEEYE</text>
+    <text class="sub-font" x="135" y="245" font-size="11" fill="#a5b4fc" text-anchor="middle" letter-spacing="3" opacity="0.9">SHADOW HUNTER</text>
+
+    <!-- Elegant separator line with magic diamond -->
+    <line x1="35" y1="260" x2="235" y2="260" stroke="#312e81" stroke-width="1.5" />
+    <polygon points="135,257 138,260 135,263 132,260" fill="#ffd700" filter="url(#gold-glow)" />
+
+    <!-- Registry & House Subtitles -->
+    <g transform="translate(20, 275)">
+      <!-- House Badge -->
+      <rect x="0" y="0" width="110" height="24" rx="12" fill="#0f172a" stroke="#00bfff" stroke-width="1" />
+      <circle cx="12" cy="12" r="4" fill="#06b6d4" />
+      <text class="body-font" x="24" y="16" font-size="10" font-weight="700" fill="#e2e8f0">RAVENCLAW</text>
+
+      <!-- Wand Badge -->
+      <rect x="120" y="0" width="110" height="24" rx="12" fill="#0f172a" stroke="#eab308" stroke-width="1" />
+      <circle cx="132" cy="12" r="4" fill="#ffd700" />
+      <text class="body-font" x="144" y="16" font-size="10" font-weight="700" fill="#e2e8f0">ELDER WAND</text>
+    </g>
+
+    <!-- Bottom Rank Badge (Level) -->
+    <rect x="55" y="312" width="160" height="32" rx="16" fill="#1e1b4b" stroke="#ffd700" stroke-width="1.5" filter="url(#gold-glow)" />
+    <text class="sub-font" x="130" y="333" font-size="13" font-weight="900" fill="#ffd700" text-anchor="middle">LEVEL 99 AWAKENED</text>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: INTERACTIVE HUD MODULE ================= -->
+  <g transform="translate(355, 45)">
+    <!-- Header Title -->
+    <text class="sub-font" x="0" y="28" font-size="20" font-weight="900" fill="#00bfff" filter="url(#cyan-glow)" letter-spacing="2">REALM STATUS WINDOW</text>
+    <line x1="0" y1="42" x2="400" y2="42" stroke="#06b6d4" stroke-width="2.5" opacity="0.8" filter="url(#cyan-glow)" />
+
+    <!-- Core Attributes / Energy Bars -->
+    <g transform="translate(0, 68)">
+      <!-- HP / Energy Level -->
+      <g transform="translate(0, 0)">
+        <text class="sub-font" x="0" y="14" font-size="12" font-weight="800" fill="#f43f5e" letter-spacing="1">VITALITY (HP)</text>
+        <text class="sub-font" x="380" y="14" font-size="11" font-weight="800" fill="#f43f5e" text-anchor="end">88,420 / 88,420</text>
+        <rect x="0" y="22" width="380" height="9" rx="4.5" fill="#1e1b29" />
+        <rect x="0" y="22" width="380" height="9" rx="4.5" fill="url(#rose-bar)" filter="url(#rose-glow)" />
+      </g>
+
+      <!-- MP / Magical Power -->
+      <g transform="translate(0, 48)">
+        <text class="sub-font" x="0" y="14" font-size="12" font-weight="800" fill="#00bfff" letter-spacing="1">MANA CAPACITY (MP)</text>
+        <text class="sub-font" x="380" y="14" font-size="11" font-weight="800" fill="#00bfff" text-anchor="end">∞ / ∞ [MAX]</text>
+        <rect x="0" y="22" width="380" height="9" rx="4.5" fill="#0c1d30" />
+        <rect x="0" y="22" width="380" height="9" rx="4.5" fill="url(#cyan-bar)" class="pulse-mana" filter="url(#cyan-glow)" />
+      </g>
+
+      <!-- Core Alchemy / XP Progress -->
+      <g transform="translate(0, 96)">
+        <text class="sub-font" x="0" y="14" font-size="12" font-weight="800" fill="#ffd700" letter-spacing="1">XP TRANSMUTATION</text>
+        <text class="sub-font" x="380" y="14" font-size="11" font-weight="800" fill="#ffd700" text-anchor="end">99.97% [ASCENSION]</text>
+        <rect x="0" y="22" width="380" height="9" rx="4.5" fill="#2d1c0c" />
+        <rect x="0" y="22" width="365" height="9" rx="4.5" fill="url(#gold-bar)" filter="url(#gold-glow)" />
+      </g>
+    </g>
+
+    <!-- Magical System Specifications (Spell Book Log) -->
+    <g transform="translate(0, 212)">
+      <!-- Sleek Interface Grid Box -->
+      <rect x="0" y="0" width="400" height="148" rx="14" fill="#070a1e" fill-opacity="0.8" stroke="#1e293b" stroke-width="1.5" />
+      <rect x="4" y="4" width="392" height="140" rx="10" fill="none" stroke="#4f46e5" stroke-width="1" opacity="0.3" />
+
+      <!-- Specs Text List -->
+      <g transform="translate(18, 22)" fill="#e2e8f0" font-size="12" font-weight="700">
+        <!-- Spec 1: Guild -->
+        <text class="body-font" y="8" fill="#94a3b8">🦅 GUILD AFFILIATION:</text>
+        <text class="sub-font" x="145" y="8" fill="#e2e8f0">EagleEye Syndicate (S-Rank)</text>
+
+        <!-- Spec 2: Class -->
+        <text class="body-font" y="32" fill="#94a3b8">🧙 CHOSEN CLASS:</text>
+        <text class="body-font" x="145" y="32" fill="#a5b4fc">Full-Stack Alchemist / Auror</text>
+
+        <!-- Spec 3: Domain -->
+        <text class="body-font" y="56" fill="#94a3b8">🗡️ DOMAIN EXPANSION:</text>
+        <text class="sub-font" x="145" y="56" fill="#00bfff" filter="url(#cyan-glow)">Infinite Repositories</text>
+
+        <!-- Spec 4: Spell -->
+        <text class="body-font" y="80" fill="#94a3b8">🔮 SIGNATURE CHARM:</text>
+        <text class="body-font" x="145" y="80" fill="#ffd700" filter="url(#gold-glow)">Expecto Coding! ⚡</text>
+
+        <!-- Spec 5: Core Code -->
+        <text class="body-font" y="104" fill="#94a3b8">🧬 AWAKENED ABILITY:</text>
+        <text class="body-font" x="145" y="104" fill="#ec4899" filter="url(#rose-glow)">Rapid Syntactical Transmutation</text>
+      </g>
+    </g>
+  </g>
+</svg>
