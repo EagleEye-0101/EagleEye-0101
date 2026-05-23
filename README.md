@@ -32,151 +32,182 @@ Welcome to the quiet woods. I am **Kali**, a software craftsman, full-stack arch
 From designing highly responsive mobile layouts to structuring scalable cloud databases, I treat coding as a form of natural cultivation—ensuring every component fits seamlessly into a larger, stable ecosystem.
 
 <br />
-
-## 🧠 FEATURED ARTIFACTS (PROJECTS)
-
-*A selection of my primary creations, forged under the canopy:*
-
-<br />
-
 <div align="center">
-  <table border="0" cellpadding="8" cellspacing="8" width="100%" style="border-collapse: separate; border-spacing: 15px; background-color: #030604; border-radius: 16px; border: 1px solid #102118;">
-    <tr>
-      <!-- Project 1 -->
-      <td width="33%" valign="top" style="background: rgba(16, 185, 129, 0.015); border-radius: 12px; border: 1.2px solid #1a3a2a; padding: 20px;">
-        <span style="font-size: 24px;">🧠</span><br />
-        <strong>AI Blueprint Memory OS</strong>
-        <p style="margin: 8px 0;"><img src="https://img.shields.io/badge/Core-Unreal_Engine_5-a7f3d0?style=flat-square&color=%23064e3b" /></p>
-        <font size="2" color="#94a3b8">
-          A local-first AI-powered architecture intelligence system for Unreal Engine 5 projects that scans Blueprint relationships, visualizes gameplay architecture, stores persistent project memory, and provides AI-powered explanations of systems and dependencies.
-        </font>
-      </td>
-      <!-- Project 2 -->
-      <td width="33%" valign="top" style="background: rgba(16, 185, 129, 0.015); border-radius: 12px; border: 1.2px solid #1a3a2a; padding: 20px;">
-        <span style="font-size: 24px;">🎮</span><br />
-        <strong>Survival Horror Game</strong>
-        <p style="margin: 8px 0;"><img src="https://img.shields.io/badge/Core-UE5_/_Android-a7f3d0?style=flat-square&color=%23064e3b" /></p>
-        <font size="2" color="#94a3b8">
-          A small AAA-style atmospheric survival horror game developed in Unreal Engine 5 for Android, featuring exploration, puzzles, zombie combat, graphics settings, and emotional story-driven gameplay.
-        </font>
-      </td>
-      <!-- Project 3 -->
-      <td width="33%" valign="top" style="background: rgba(16, 185, 129, 0.015); border-radius: 12px; border: 1.2px solid #1a3a2a; padding: 20px;">
-        <span style="font-size: 24px;">🏦</span><br />
-        <strong>Banking Ecosystem</strong>
-        <p style="margin: 8px 0;"><img src="https://img.shields.io/badge/Core-Full_Stack-a7f3d0?style=flat-square&color=%23064e3b" /></p>
-        <font size="2" color="#94a3b8">
-          A complete banking-style application ecosystem with secure authentication, transaction systems, dashboard interfaces, CRM/ERP integrations, backend APIs, real-time workflows, and PDF statement generation.
-        </font>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br />
-<div align="center">
-  🌿 ⋆ ✦ ─── ✦ ⋆ 🌿
+  🌿 ─── ✦ ─── 🌿
 </div>
 <br />
 
-## 🌿 THE GRIMOIRE (SKILLS)
+## 🏔️ THE EXPEDITIONS (FEATURED PROJECTS)
 
-*The elements and systems I command, categorized cleanly:*
+*A chronicle of featured creations developed and maintained under the canopy:*
+
+<br />
+
+### 🧠 ARCHIVAL ENTITY I: **THE AI BLUEPRINT MEMORY OS**
+> **Domain**: `AI Systems & Graph Architectures` &nbsp;|&nbsp; **Environments**: `Unreal Engine 5` &nbsp;•&nbsp; `Blueprint Analysis` &nbsp;•&nbsp; `Local AI`
+>
+> A local-first, AI-powered system designed to analyze and map complex Blueprint relationships within Unreal Engine 5 projects. It visualizes gameplay architecture, builds persistent project memory, and delivers deep structural explanations of system dependencies.
+>
+*   **Transmuted Mechanisms (Key Features)**:
+    *   `🔍 Dependency Graph Analysis`: Real-time scanning of class inheritances and object-to-object relations.
+    *   `🧠 Persistent Project Memory`: Retains historical structural layouts to speed up architecture parsing.
+    *   `⚡ Offline Alchemical Explanations`: Secure, local-first intelligence providing instant, clear descriptions of system dependencies.
+
+---
+
+### 🎮 ARCHIVAL ENTITY II: **SURVIVAL HORROR ANOMALY**
+> **Domain**: `Gameplay Systems & Optimization` &nbsp;|&nbsp; **Environments**: `Unreal Engine 5` &nbsp;•&nbsp; `Blueprints` &nbsp;•&nbsp; `Android APK Compilation`
+>
+> An atmospheric, high-fidelity survival horror experience engineered specifically for mobile platforms. Features optimized zombie combat architectures, interactive exploration puzzles, custom graphics configurations, and immersive spatial horror audio cues.
+>
+*   **Transmuted Mechanisms (Key Features)**:
+    *   `🧟 High-Performance Combat AI`: Dynamic target tracking and fluid zombie pathfinding algorithms.
+    *   `📱 Mobile-First Asset Optimization`: Multi-threaded packaging setups designed for smooth Android execution.
+    *   `⛈️ Dynamic Weather Integration`: Wet forest surfaces, wind gales, and dense fog rendering running stably at targeted framerates.
+
+---
+
+### 🏦 ARCHIVAL ENTITY III: **FULL-STACK BANKING ECOSYSTEM**
+> **Domain**: `Secure API & Dashboard Design` &nbsp;|&nbsp; **Environments**: `React` &nbsp;•&nbsp; `React Native` &nbsp;•&nbsp; `Node.js` &nbsp;•&nbsp; `Express.js` &nbsp;•&nbsp; `SQL/NoSQL`
+>
+> A complete, enterprise-ready banking application featuring secure multi-factor authentication, transaction control panels, real-time balance flows, backend API layers, and custom-designed financial statement generation.
+>
+*   **Transmuted Mechanisms (Key Features)**:
+    *   `🔒 Cryptographic Shields (Auth)`: Secure user profiles backed by state-of-the-art token protection systems.
+    *   `💼 ERP & CRM Data Integrations`: Real-time backend workflows mapped into cohesive client dashboards.
+    *   `📊 Alchemical Statement Transmutation`: High-speed generation of detailed, secure transaction logs in portable PDF formats.
+
+<br />
+<div align="center">
+  🌿 ─── ✦ ─── 🌿
+</div>
+<br />
+
+## 🌿 THE GREENWOOD COGNIZANCE (STRUCTURED SKILLS)
+
+*The elements and domains of command structured into logical, organic pillars:*
 
 <br />
 
 <div align="center">
   <table border="0" cellpadding="10" cellspacing="10" width="100%" style="border-collapse: separate; border-spacing: 15px; background: transparent;">
     <tr>
-      <!-- Column 1 -->
-      <td width="50%" valign="top" style="background: rgba(16, 185, 129, 0.01); border-radius: 16px; border: 1px solid #1c3528; padding: 22px;">
+      <!-- Pillar 1 -->
+      <td width="33%" valign="top" style="background: rgba(16, 185, 129, 0.012); border-radius: 16px; border: 1.2px solid #142b20; padding: 22px;">
         
-        <h3>🍵 LANGUAGES</h3>
-        <font size="2" color="#94a3b8">
-          🌿 JavaScript &nbsp;•&nbsp; 🌿 TypeScript &nbsp;•&nbsp; 🌿 Python<br />
-          🌿 Java &nbsp;•&nbsp; 🌿 C++ &nbsp;•&nbsp; 🌿 HTML5<br />
-          🌿 CSS3 &nbsp;•&nbsp; 🌿 SQL
-        </font>
+        <h3 align="center">🌲 PILLAR I</h3>
+        <p align="center"><font size="2" color="#a7f3d0"><strong>FOUNDATIONAL SOIL</strong></font></p>
+        <hr stroke="#142b20" stroke-width="0.8" style="opacity:0.3;" />
         
-        <br /><br />
+        <br />
+        <strong>🍵 LANGUAGES</strong>
+        <ul>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>C++</li>
+          <li>HTML5 / CSS3</li>
+          <li>SQL</li>
+        </ul>
         
-        <h3>🎨 FRONTEND</h3>
-        <font size="2" color="#94a3b8">
-          🌿 React &nbsp;•&nbsp; 🌿 React Native &nbsp;•&nbsp; 🌿 Next.js<br />
-          🌿 Tailwind CSS &nbsp;•&nbsp; 🌿 Responsive UI/UX<br />
-          🌿 REST API Integration
-        </font>
-
-        <br /><br />
-        
-        <h3>🧪 BACKEND</h3>
-        <font size="2" color="#94a3b8">
-          🌿 Node.js &nbsp;•&nbsp; 🌿 Express.js &nbsp;•&nbsp; 🌿 REST APIs<br />
-          🌿 Authentication &nbsp;•&nbsp; 🌿 Real-time Systems<br />
-          🌿 DB Design &nbsp;•&nbsp; 🌿 Business Logic
-        </font>
-
-        <br /><br />
-        
-        <h3>💾 DATABASES</h3>
-        <font size="2" color="#94a3b8">
-          🌿 MongoDB &nbsp;•&nbsp; 🌿 MySQL &nbsp;•&nbsp; 🌿 Firebase<br />
-          🌿 PostgreSQL
-        </font>
-
-        <br /><br />
-        
-        <h3>📱 MOBILE</h3>
-        <font size="2" color="#94a3b8">
-          🌿 Android App Development<br />
-          🌿 React Native Mobile Apps<br />
-          🌿 Cross-Platform Architectures
-        </font>
+        <br />
+        <strong>🛠️ UTILITIES &amp; TOOLING</strong>
+        <ul>
+          <li>Git &amp; GitHub</li>
+          <li>Linux / Fedora</li>
+          <li>Docker</li>
+          <li>VS Code</li>
+          <li>Firebase Console</li>
+          <li>Postman</li>
+        </ul>
 
       </td>
-      <!-- Column 2 -->
-      <td width="50%" valign="top" style="background: rgba(16, 185, 129, 0.01); border-radius: 16px; border: 1px solid #1c3528; padding: 22px;">
+      <!-- Pillar 2 -->
+      <td width="33%" valign="top" style="background: rgba(16, 185, 129, 0.012); border-radius: 16px; border: 1.2px solid #142b20; padding: 22px;">
         
-        <h3>🎮 GAME DEVELOPMENT</h3>
-        <font size="2" color="#94a3b8">
-          🌿 Unreal Engine 5 &nbsp;•&nbsp; 🌿 Blueprint System<br />
-          🌿 Gameplay System Design &nbsp;•&nbsp; 🌿 Horror Game Dev<br />
-          🌿 Android APK Packaging &nbsp;•&nbsp; 🌿 AI Dev Tools
-        </font>
+        <h3 align="center">🌱 PILLAR II</h3>
+        <p align="center"><font size="2" color="#a7f3d0"><strong>THE CANOPY &amp; ROOTS</strong></font></p>
+        <hr stroke="#142b20" stroke-width="0.8" style="opacity:0.3;" />
+        
+        <br />
+        <strong>🎨 FRONTEND</strong>
+        <ul>
+          <li>React</li>
+          <li>React Native</li>
+          <li>Next.js</li>
+          <li>Tailwind CSS</li>
+          <li>Responsive UI/UX</li>
+          <li>REST API Integration</li>
+        </ul>
+        
+        <br />
+        <strong>🧪 BACKEND &amp; STORAGE</strong>
+        <ul>
+          <li>Node.js / Express.js</li>
+          <li>Authentication Systems</li>
+          <li>REST APIs</li>
+          <li>Real-time Workflows</li>
+          <li>Database Design</li>
+          <li>MongoDB / MySQL</li>
+          <li>Firebase / PostgreSQL</li>
+        </ul>
 
-        <br /><br />
-        
-        <h3>🧠 AI & ADVANCED PROJECTS</h3>
-        <font size="2" color="#94a3b8">
-          🌿 AI System Architecture &nbsp;•&nbsp; 🌿 Local-first AI<br />
-          🌿 Memory-based AI Systems &nbsp;•&nbsp; 🌿 Blueprint Analysis<br />
-          🌿 AI-powered Developer Tools
-        </font>
+        <br />
+        <strong>📱 MOBILE</strong>
+        <ul>
+          <li>Android App Dev</li>
+          <li>React Native Apps</li>
+          <li>Cross-Platform design</li>
+        </ul>
 
-        <br /><br />
+      </td>
+      <!-- Pillar 3 -->
+      <td width="33%" valign="top" style="background: rgba(16, 185, 129, 0.012); border-radius: 16px; border: 1.2px solid #142b20; padding: 22px;">
         
-        <h3>🛡️ CYBERSECURITY</h3>
-        <font size="2" color="#94a3b8">
-          🌿 Penetration Testing Basics &nbsp;•&nbsp; 🌿 Security Research<br />
-          🌿 Custom Tool Development &nbsp;•&nbsp; 🌿 System Analysis
-        </font>
+        <h3 align="center">🌌 PILLAR III</h3>
+        <p align="center"><font size="2" color="#a7f3d0"><strong>THE AWAKENED REALMS</strong></font></p>
+        <hr stroke="#142b20" stroke-width="0.8" style="opacity:0.3;" />
+        
+        <br />
+        <strong>🎮 GAME DEVELOPMENT</strong>
+        <ul>
+          <li>Unreal Engine 5</li>
+          <li>Blueprint System</li>
+          <li>Gameplay System Design</li>
+          <li>AI-assisted Dev</li>
+          <li>Horror Game Dev</li>
+          <li>Android APK Packaging</li>
+        </ul>
+        
+        <br />
+        <strong>🧠 AI &amp; INTEL SYSTEM</strong>
+        <ul>
+          <li>AI System Architecture</li>
+          <li>Local-first AI Systems</li>
+          <li>Memory-based AI</li>
+          <li>Blueprint Analysis</li>
+          <li>AI Developer Tools</li>
+        </ul>
 
-        <br /><br />
-        
-        <h3>🛠️ TOOLS & PLATFORMS</h3>
-        <font size="2" color="#94a3b8">
-          🌿 Git & GitHub &nbsp;•&nbsp; 🌿 Linux / Fedora &nbsp;•&nbsp; 🌿 Docker<br />
-          🌿 VS Code &nbsp;•&nbsp; 🌿 Firebase Console &nbsp;•&nbsp; 🌿 Postman
-        </font>
+        <br />
+        <strong>🛡️ CYBERSECURITY</strong>
+        <ul>
+          <li>Penetration Testing</li>
+          <li>Security Research</li>
+          <li>Custom Security Tools</li>
+          <li>Systems Analysis</li>
+        </ul>
 
-        <br /><br />
-        
-        <h3>🍃 OTHER SPECIALTIES</h3>
-        <font size="2" color="#94a3b8">
-          🌿 Full Stack Architecture &nbsp;•&nbsp; 🌿 CRM & ERP Systems<br />
-          🌿 Banking Applications &nbsp;•&nbsp; 🌿 Performance Tuning<br />
-          🌿 Problem Solving & Systems Analysis
-        </font>
+        <br />
+        <strong>🍃 SPECIALTIES</strong>
+        <ul>
+          <li>Full Stack Architecture</li>
+          <li>CRM &amp; ERP Systems</li>
+          <li>Banking Applications</li>
+          <li>Performance Tuning</li>
+          <li>Problem Solving</li>
+        </ul>
 
       </td>
     </tr>
