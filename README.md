@@ -4,7 +4,7 @@
   <!-- Dynamic Ethereal Forest Welcome Banner -->
   <p align="center">
     <a href="https://github.com/denvercoder1/readme-typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=26&pause=800&color=a7f3d0&background=00000000&width=650&height=50&lines=✦+THE+GREENWOOD+CHRONICLES;🌧️+Rainfall+over+the+Mossy+Canopy;🌫️+Fog+drifting+through+ancient+oaks;🌿+Kali's+Solitary+Domain" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=26&pause=800&color=a7f3d0&background=00000000&width=650&height=50&lines=THE+GREENWOOD+CHRONICLES;Rainfall+over+the+Mossy+Canopy;Fog+drifting+through+ancient+oaks;Kali's+Solitary+Domain" alt="Typing SVG" />
     </a>
   </p>
 
