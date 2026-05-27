@@ -1,11 +1,11 @@
-<!-- Immersive Greenwood Dark Theme Container -->
-<div style="background-color: #05080c; color: #cbd5e1; padding: 35px; border-radius: 24px; border: 2px solid #0f1f18; font-family: 'Cinzel', serif; box-shadow: inset 0 0 80px rgba(16, 185, 129, 0.03);">
+<!-- Immersive Rainwood Misty Dark Theme Container -->
+<div style="background-color: #080f14; color: #dce6ee; padding: 35px; border-radius: 24px; border: 2px solid #0f1419; font-family: 'Cinzel', 'Playfair Display', Georgia, serif; box-shadow: inset 0 0 80px rgba(232, 242, 248, 0.04);">
 
 <div align="center">
   <!-- Dynamic Ethereal Forest Welcome Banner -->
   <p align="center">
     <a href="https://github.com/denvercoder1/readme-typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=26&pause=800&color=a7f3d0&background=00000000&width=650&height=50&lines=THE+GREENWOOD+CHRONICLES;Rainfall+over+the+Mossy+Canopy;Fog+drifting+through+ancient+oaks;Kali's+Solitary+Domain" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Cinzel+Decorative&weight=900&size=26&pause=800&color=eef4f9&background=00000000&width=650&height=50&lines=THE+RAINWOOD+CHRONICLES;Rainfall+over+the+Misty+Canopy;Fog+drifting+through+ancient+oaks;Kali's+Solitary+Domain" alt="Typing SVG" />
     </a>
   </p>
 
@@ -16,7 +16,7 @@
 
 <div align="center" style="margin-top: 15px; margin-bottom: 30px;">
   <!-- Breathtaking Forest Silhouette Centerpiece (Wind-swept Rain, Heavy Fog, and Swaying Ferns) -->
-  <img src="status_window.svg" alt="Kali's Greenwood Sanctuary" width="100%" style="max-width: 800px; border-radius: 20px; box-shadow: 0 0 35px rgba(52, 211, 153, 0.15);" />
+  <img src="status_window.svg" alt="Kali's Rainwood Sanctuary" width="100%" style="max-width: 800px; border-radius: 20px; box-shadow: 0 0 35px rgba(232, 242, 248, 0.1);" />
 </div>
 
 <div align="center">
@@ -83,7 +83,7 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
 </div>
 <br />
 
-## 🌿 THE GREENWOOD COGNIZANCE (STRUCTURED SKILLS)
+## 🌿 THE RAINWOOD COGNIZANCE (STRUCTURED SKILLS)
 
 *A cleaner map of tools and capabilities I use most in real projects.*
 
@@ -128,11 +128,11 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
     <tr>
       <td style="padding: 10px; border: none;">
         <!-- Custom Magic Colored GitHub Readme Stats Card -->
-        <img src="https://github-readme-stats.vercel.app/api?username=EagleEye-0101&show_icons=true&bg_color=05080c&title_color=6ee7b7&text_color=cbd5e1&icon_color=a7f3d0&border_color=14251c&border_radius=12" alt="Kali's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=EagleEye-0101&show_icons=true&bg_color=080f14&title_color=eef4f9&text_color=dce6ee&icon_color=b8ccd9&border_color=0f1419&border_radius=12" alt="Kali's GitHub Stats" />
       </td>
       <td style="padding: 10px; border: none;">
         <!-- Custom Magic Colored Streak Stats Card -->
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=EagleEye-0101&theme=tokyonight&background=05080c&title=6ee7b7&sideNums=cbd5e1&sideTitle=a7f3d0&stroke=14251c&ring=6ee7b7&fire=a7f3d0&border_radius=12" alt="Kali's Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=EagleEye-0101&theme=tokyonight&background=080f14&title=eef4f9&sideNums=dce6ee&sideTitle=b8c9d6&stroke=0f1419&ring=b8c9d6&fire=eef4f9&border_radius=12" alt="Kali's Streak Stats" />
       </td>
     </tr>
   </table>
@@ -150,20 +150,20 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
 
 <br />
 
-<div align="center" style="background: #030604; border: 1.5px solid #14251c; border-radius: 20px; padding: 25px;">
+<div align="center" style="background: #060b0e; border: 1.5px solid #0f1419; border-radius: 20px; padding: 25px;">
   <p>
     <a href="mailto:kaliking2k20@gmail.com" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/Forest_Post-kaliking2k20%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=%23064e3b" alt="Email" />
+      <img src="https://img.shields.io/badge/Forest_Post-kaliking2k20%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=%231b2936" alt="Email" />
     </a>
     &nbsp;&nbsp;&nbsp;
     <a href="https://github.com/EagleEye-0101" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/Wanderer_Archive-EagleEye--0101-181717?style=for-the-badge&logo=github&logoColor=white&color=%231e293b" alt="GitHub" />
+      <img src="https://img.shields.io/badge/Wanderer_Archive-EagleEye--0101-181717?style=for-the-badge&logo=github&logoColor=white&color=%231b2936" alt="GitHub" />
     </a>
   </p>
   <br />
   <!-- Dynamic visitor counter badge wrapped in portal magic -->
   <p>
-    <img src="https://komarev.com/ghpvc/?username=EagleEye-0101&color=14251c&style=flat-square&label=FOREST+MIST+ACTIVE" alt="Forest Mist Active Count" />
+    <img src="https://komarev.com/ghpvc/?username=EagleEye-0101&color=1b2936&style=flat-square&label=FOREST+MIST+ACTIVE" alt="Forest Mist Active Count" />
   </p>
 </div>
 
