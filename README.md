@@ -89,6 +89,30 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
 
 <br />
 
+<div align="center">
+  <img src="https://img.shields.io/badge/JavaScript-1b2936?style=flat-square&logo=javascript&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/TypeScript-1b2936?style=flat-square&logo=typescript&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/Python-1b2936?style=flat-square&logo=python&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/C%2B%2B-1b2936?style=flat-square&logo=c%2B%2B&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/SQL-1b2936?style=flat-square&logo=sqlite&logoColor=eef4f9" />
+  <br /><br />
+  <img src="https://img.shields.io/badge/React-1b2936?style=flat-square&logo=react&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/React_Native-1b2936?style=flat-square&logo=react&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/Next.js-1b2936?style=flat-square&logo=nextdotjs&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/Tailwind_CSS-1b2936?style=flat-square&logo=tailwindcss&logoColor=eef4f9" />
+  <br /><br />
+  <img src="https://img.shields.io/badge/Node.js-1b2936?style=flat-square&logo=nodedotjs&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/Express.js-1b2936?style=flat-square&logo=express&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/Unreal_Engine_5-1b2936?style=flat-square&logo=unrealengine&logoColor=eef4f9" />
+  <br /><br />
+  <img src="https://img.shields.io/badge/MongoDB-1b2936?style=flat-square&logo=mongodb&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/MySQL-1b2936?style=flat-square&logo=mysql&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/PostgreSQL-1b2936?style=flat-square&logo=postgresql&logoColor=eef4f9" />&nbsp;
+  <img src="https://img.shields.io/badge/Firebase-1b2936?style=flat-square&logo=firebase&logoColor=eef4f9" />
+</div>
+
+<br />
+
 ### 💻 Core Stack
 - **Languages:** `JavaScript`, `TypeScript`, `Python`, `Java`, `C++`, `SQL`
 - **Frontend:** `React`, `React Native`, `Next.js`, `Tailwind CSS`, responsive UI systems
