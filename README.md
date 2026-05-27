@@ -19,77 +19,78 @@
   <img src="status_window.svg" alt="Kali's Rainwood Sanctuary" width="100%" style="max-width: 800px; border-radius: 20px; box-shadow: 0 0 35px rgba(232, 242, 248, 0.1);" />
 </div>
 
-<div align="center">
-  🌿 🌧️ ─── 🌫️ ─── 🌧️ 🌿
-</div>
+<!-- Custom Fade Divider -->
+<hr style="border: 0; height: 1px; background: linear-gradient(to right, rgba(232, 242, 248, 0), rgba(232, 242, 248, 0.2), rgba(232, 242, 248, 0)); margin: 35px 0;" />
 
-<br />
-
-## 📖 THE WANDERER'S LORE (ABOUT ME)
+<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #0f1419; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px; letter-spacing: 2px;">📖 THE WANDERER'S LORE (ABOUT ME)</h2>
 
 Welcome to the quiet woods. I am **Kali**, a software craftsman, full-stack architect, and digital wanderer. Much like a forest growing quietly over decades, I build interfaces and database systems that are structured, resilient, and organically cohesive. Guided by a deep appreciation for calm aesthetics, clean design, and structural reliability, I cultivate fluid systems out of raw logic.
 
 From designing highly responsive mobile layouts to structuring scalable cloud databases, I treat coding as a form of natural cultivation—ensuring every component fits seamlessly into a larger, stable ecosystem.
 
-<br />
-<div align="center">
-  🌿 ─── ✦ ─── 🌿
+<!-- Custom Fade Divider -->
+<hr style="border: 0; height: 1px; background: linear-gradient(to right, rgba(232, 242, 248, 0), rgba(232, 242, 248, 0.2), rgba(232, 242, 248, 0)); margin: 35px 0;" />
+
+<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #0f1419; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px; letter-spacing: 2px;">🏔️ THE EXPEDITIONS (FEATURED PROJECTS)</h2>
+
+<p style="color: #b8c9d6; font-style: italic; margin-bottom: 25px;">Selected projects that represent my strongest work across AI systems, gameplay engineering, and production full-stack apps.</p>
+
+<!-- Project 1 Card -->
+<div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+  <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">🧠 AI Blueprint Memory OS</h3>
+  <p style="color: #b8c9d6; font-style: italic; font-size: 14px; margin-bottom: 15px;">Focus: Local-first AI tooling for Unreal Engine 5 architecture analysis.</p>
+  
+  <p style="margin-bottom: 10px;"><strong>🛠️ Stack:</strong> <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">Unreal Engine 5</code> &nbsp; <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">Blueprint Graph Analysis</code> &nbsp; <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">Local AI Pipeline</code></p>
+  
+  <p style="margin-bottom: 15px; color: #dce6ee;"><strong>🎯 What it solves:</strong> Makes large Blueprint projects easier to understand and document by mapping dependency relationships and architecture flow.</p>
+  
+  <ul style="margin: 0; padding-left: 20px; color: #cbd5e1; line-height: 1.6;">
+    <li style="margin-bottom: 6px;"><code>🔍</code> Automated dependency graph generation for Blueprint classes and links</li>
+    <li style="margin-bottom: 6px;"><code>🧠</code> Persistent project memory for faster repeat analysis sessions</li>
+    <li style="margin-bottom: 0;"><code>⚡</code> Offline-first explanation layer for secure local architecture insights</li>
+  </ul>
 </div>
-<br />
 
-## 🏔️ THE EXPEDITIONS (FEATURED PROJECTS)
-
-*Selected projects that represent my strongest work across AI systems, gameplay engineering, and production full-stack apps.*
-
-<br />
-
-### 🧠 AI Blueprint Memory OS
-**Focus:** Local-first AI tooling for Unreal Engine 5 architecture analysis.
-
-- **Stack:** `Unreal Engine 5`, `Blueprint Graph Analysis`, `Local AI Pipeline`
-- **What it solves:** Makes large Blueprint projects easier to understand and document by mapping dependency relationships and architecture flow.
-- **Highlights:**
-  - `🔍` Automated dependency graph generation for Blueprint classes and links
-  - `🧠` Persistent project memory for faster repeat analysis sessions
-  - `⚡` Offline-first explanation layer for secure local architecture insights
-
----
-
-### 🎮 Survival Horror Anomaly
-**Focus:** Performance-aware gameplay systems and horror atmosphere on mobile.
-
-- **Stack:** `Unreal Engine 5`, `Blueprints`, `Android Build Pipeline`
-- **What it solves:** Delivers stable, high-fidelity survival-horror gameplay under mobile hardware constraints.
-- **Highlights:**
-  - `🧟` Combat AI and enemy behavior tuned for responsive encounters
-  - `📱` Mobile-first optimization and packaging workflow for smoother builds
-  - `⛈️` Dynamic weather and environmental atmosphere integrated with gameplay mood
-
----
-
-### 🏦 Full-Stack Banking Ecosystem
-**Focus:** Secure finance-oriented product architecture from frontend to backend.
-
-- **Stack:** `React`, `React Native`, `Node.js`, `Express.js`, `SQL/NoSQL`
-- **What it solves:** Provides reliable transaction, authentication, and reporting workflows for banking-style applications.
-- **Highlights:**
-  - `🔒` Multi-factor authentication and secure API access patterns
-  - `💼` ERP/CRM-aligned service integration with dashboard-ready data
-  - `📊` Financial statement generation and transaction reporting pipeline
-
-<br />
-<div align="center">
-  🌿 ─── ✦ ─── 🌿
+<!-- Project 2 Card -->
+<div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+  <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">🎮 Survival Horror Anomaly</h3>
+  <p style="color: #b8c9d6; font-style: italic; font-size: 14px; margin-bottom: 15px;">Focus: Performance-aware gameplay systems and horror atmosphere on mobile.</p>
+  
+  <p style="margin-bottom: 10px;"><strong>🛠️ Stack:</strong> <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">Unreal Engine 5</code> &nbsp; <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">Blueprints</code> &nbsp; <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">Android Build Pipeline</code></p>
+  
+  <p style="margin-bottom: 15px; color: #dce6ee;"><strong>🎯 What it solves:</strong> Delivers stable, high-fidelity survival-horror gameplay under mobile hardware constraints.</p>
+  
+  <ul style="margin: 0; padding-left: 20px; color: #cbd5e1; line-height: 1.6;">
+    <li style="margin-bottom: 6px;"><code>🧟</code> Combat AI and enemy behavior tuned for responsive encounters</li>
+    <li style="margin-bottom: 6px;"><code>📱</code> Mobile-first optimization and packaging workflow for smoother builds</li>
+    <li style="margin-bottom: 0;"><code>⛈️</code> Dynamic weather and environmental atmosphere integrated with gameplay mood</li>
+  </ul>
 </div>
-<br />
 
-## 🌿 THE RAINWOOD COGNIZANCE (STRUCTURED SKILLS)
+<!-- Project 3 Card -->
+<div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
+  <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">🏦 Full-Stack Banking Ecosystem</h3>
+  <p style="color: #b8c9d6; font-style: italic; font-size: 14px; margin-bottom: 15px;">Focus: Secure finance-oriented product architecture from frontend to backend.</p>
+  
+  <p style="margin-bottom: 10px;"><strong>🛠️ Stack:</strong> <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">React</code> &nbsp; <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">React Native</code> &nbsp; <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">Node.js / Express</code> &nbsp; <code style="background: #1b2936; color: #eef4f9; padding: 2px 6px; border-radius: 4px; font-size: 13px;">SQL / NoSQL</code></p>
+  
+  <p style="margin-bottom: 15px; color: #dce6ee;"><strong>🎯 What it solves:</strong> Provides reliable transaction, authentication, and reporting workflows for banking-style applications.</p>
+  
+  <ul style="margin: 0; padding-left: 20px; color: #cbd5e1; line-height: 1.6;">
+    <li style="margin-bottom: 6px;"><code>🔒</code> Multi-factor authentication and secure API access patterns</li>
+    <li style="margin-bottom: 6px;"><code>💼</code> ERP/CRM-aligned service integration with dashboard-ready data</li>
+    <li style="margin-bottom: 0;"><code>📊</code> Financial statement generation and transaction reporting pipeline</li>
+  </ul>
+</div>
 
-*A cleaner map of tools and capabilities I use most in real projects.*
+<!-- Custom Fade Divider -->
+<hr style="border: 0; height: 1px; background: linear-gradient(to right, rgba(232, 242, 248, 0), rgba(232, 242, 248, 0.2), rgba(232, 242, 248, 0)); margin: 35px 0;" />
 
-<br />
+<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #0f1419; padding-bottom: 8px; margin-top: 40px; margin-bottom: 20px; letter-spacing: 2px;">🌿 THE RAINWOOD COGNIZANCE (STRUCTURED SKILLS)</h2>
 
-<div align="center">
+<p style="color: #b8c9d6; font-style: italic; margin-bottom: 25px;">A cleaner map of tools and capabilities I use most in real projects.</p>
+
+<div align="center" style="margin-bottom: 30px;">
   <img src="https://img.shields.io/badge/JavaScript-1b2936?style=flat-square&logo=javascript&logoColor=eef4f9" />&nbsp;
   <img src="https://img.shields.io/badge/TypeScript-1b2936?style=flat-square&logo=typescript&logoColor=eef4f9" />&nbsp;
   <img src="https://img.shields.io/badge/Python-1b2936?style=flat-square&logo=python&logoColor=eef4f9" />&nbsp;
@@ -111,43 +112,61 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
   <img src="https://img.shields.io/badge/Firebase-1b2936?style=flat-square&logo=firebase&logoColor=eef4f9" />
 </div>
 
-<br />
+<!-- Two Column Grid for Skill Details -->
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%; margin-bottom: 20px;">
+  <tr>
+    <td style="width: 50%; padding: 10px; border: none; vertical-align: top;">
+      <div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 20px; height: 100%;">
+        <h4 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 12px; border-bottom: 1px solid #1b2936; padding-bottom: 6px; letter-spacing: 1px;">💻 Core Stack</h4>
+        <ul style="margin: 0; padding-left: 20px; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
+          <li style="margin-bottom: 6px;"><strong>Languages:</strong> JavaScript, TypeScript, Python, Java, C++, SQL</li>
+          <li style="margin-bottom: 6px;"><strong>Frontend:</strong> React, React Native, Next.js, Tailwind CSS</li>
+          <li style="margin-bottom: 6px;"><strong>Backend:</strong> Node.js, Express.js, REST API design, Auth flows</li>
+          <li style="margin-bottom: 0;"><strong>Data:</strong> MongoDB, MySQL, PostgreSQL, Firebase</li>
+        </ul>
+      </div>
+    </td>
+    <td style="width: 50%; padding: 10px; border: none; vertical-align: top;">
+      <div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 20px; height: 100%;">
+        <h4 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 12px; border-bottom: 1px solid #1b2936; padding-bottom: 6px; letter-spacing: 1px;">🛠️ Engineering Workflow</h4>
+        <ul style="margin: 0; padding-left: 20px; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
+          <li style="margin-bottom: 6px;">Robust workflow with Git, GitHub, Docker, Linux, and VS Code</li>
+          <li style="margin-bottom: 6px;">API-first architecture with testing, Postman, and iterative optimization</li>
+          <li style="margin-bottom: 0;">Performance tuning for both frontend applications and runtime behavior</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 50%; padding: 10px; border: none; vertical-align: top;">
+      <div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 20px; height: 100%;">
+        <h4 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 12px; border-bottom: 1px solid #1b2936; padding-bottom: 6px; letter-spacing: 1px;">🎮 Unreal & Gameplay</h4>
+        <ul style="margin: 0; padding-left: 20px; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
+          <li style="margin-bottom: 6px;">Unreal Engine 5 and system architecture design using Blueprints</li>
+          <li style="margin-bottom: 6px;">Combat AI, enemy behavior design, and mobile Android pipelines</li>
+          <li style="margin-bottom: 0;">Atmosphere-focused world systems (weather, interaction, pacing)</li>
+        </ul>
+      </div>
+    </td>
+    <td style="width: 50%; padding: 10px; border: none; vertical-align: top;">
+      <div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 20px; height: 100%;">
+        <h4 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 12px; border-bottom: 1px solid #1b2936; padding-bottom: 6px; letter-spacing: 1px;">🧠 AI & Domain Experience</h4>
+        <ul style="margin: 0; padding-left: 20px; color: #cbd5e1; font-size: 14px; line-height: 1.6;">
+          <li style="margin-bottom: 6px;">Local-first AI tooling and memory-driven project pipelines</li>
+          <li style="margin-bottom: 6px;">Automated dependency and flow mapping for large Unreal structures</li>
+          <li style="margin-bottom: 0;">Full-stack product architecting & ERP/CRM integrations</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
+</table>
 
-### 💻 Core Stack
-- **Languages:** `JavaScript`, `TypeScript`, `Python`, `Java`, `C++`, `SQL`
-- **Frontend:** `React`, `React Native`, `Next.js`, `Tailwind CSS`, responsive UI systems
-- **Backend:** `Node.js`, `Express.js`, REST API design, auth flows, service integration
-- **Data:** `MongoDB`, `MySQL`, `PostgreSQL`, `Firebase`
+<!-- Custom Fade Divider -->
+<hr style="border: 0; height: 1px; background: linear-gradient(to right, rgba(232, 242, 248, 0), rgba(232, 242, 248, 0.2), rgba(232, 242, 248, 0)); margin: 35px 0;" />
 
-### 🛠️ Engineering Workflow
-- `Git`, `GitHub`, `Docker`, `Linux`, `Postman`, `VS Code`
-- API-first development with testing and iterative optimization
-- Performance tuning for both application and runtime behavior
+<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #0f1419; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px;">📊 CELESTIAL RAINFALL & PERFORMANCE STATS</h2>
 
-### 🎮 Unreal + Gameplay Engineering
-- `Unreal Engine 5` and Blueprint-driven system design
-- Gameplay architecture, AI behavior design, and Android packaging workflows
-- Atmosphere-focused world systems (weather, interaction flow, pacing)
-
-### 🧠 AI Systems
-- Local-first AI tooling and memory-driven project analysis
-- Graph/dependency mapping for large Blueprint projects
-- Architecture explanation workflows for developer productivity
-
-### 🧩 Domain Experience
-- Full-stack product architecture
-- Finance/banking-oriented platform development
-- ERP/CRM-connected application workflows
-
-<br />
-<div align="center">
-  🌿 🌫️ ─── 🌌 ─── 🌫️ 🌿
-</div>
-<br />
-
-## 📊 CELESTIAL RAINFALL & PERFORMANCE STATS
-
-<div align="center">
+<div align="center" style="margin-bottom: 30px;">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%; max-width: 850px;">
     <tr>
       <td style="padding: 10px; border: none; width: 50%; vertical-align: middle;">
@@ -162,19 +181,16 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
   </table>
 </div>
 
-<br />
-<div align="center">
-  🌿 🌧️ ─── 🌫️ ─── 🌧️ 🌿
-</div>
-<br />
+<!-- Custom Fade Divider -->
+<hr style="border: 0; height: 1px; background: linear-gradient(to right, rgba(232, 242, 248, 0), rgba(232, 242, 248, 0.2), rgba(232, 242, 248, 0)); margin: 35px 0;" />
 
-## 🦉 SEND AN OWL (TELEPATHIC CHANNEL)
+<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #0f1419; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px;">🦉 SEND AN OWL (TELEPATHIC CHANNEL)</h2>
 
-*Feel free to open a telepathic channel through the misty woods for collaborations or custom systems:*
+<p style="color: #b8c9d6; font-style: italic; margin-bottom: 20px;">Feel free to open a telepathic channel through the misty woods for collaborations or custom systems:</p>
 
 <br />
 
-<div align="center" style="background: #060b0e; border: 1.5px solid #0f1419; border-radius: 20px; padding: 25px;">
+<div align="center" style="background: #060b0e; border: 1.5px solid #0f1419; border-radius: 20px; padding: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
   <p>
     <a href="mailto:kaliking2k20@gmail.com" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/Forest_Post-kaliking2k20%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=%231b2936" alt="Email" />
