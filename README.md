@@ -124,15 +124,15 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
 ## 📊 CELESTIAL RAINFALL & PERFORMANCE STATS
 
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent;">
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%; max-width: 850px;">
     <tr>
-      <td style="padding: 10px; border: none;">
-        <!-- Custom Magic Colored GitHub Readme Stats Card -->
-        <img src="https://github-readme-stats.vercel.app/api?username=EagleEye-0101&show_icons=true&bg_color=080f14&title_color=eef4f9&text_color=dce6ee&icon_color=b8ccd9&border_color=0f1419&border_radius=12" alt="Kali's GitHub Stats" />
-      </td>
-      <td style="padding: 10px; border: none;">
+      <td style="padding: 10px; border: none; width: 50%; vertical-align: middle;">
         <!-- Custom Magic Colored Streak Stats Card -->
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=EagleEye-0101&theme=tokyonight&background=080f14&title=eef4f9&sideNums=dce6ee&sideTitle=b8c9d6&stroke=0f1419&ring=b8c9d6&fire=eef4f9&border_radius=12" alt="Kali's Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=EagleEye-0101&theme=tokyonight&background=080f14&title=eef4f9&sideNums=dce6ee&sideTitle=b8c9d6&stroke=0f1419&ring=b8c9d6&fire=eef4f9&border_radius=12" alt="Kali's Streak Stats" style="width: 100%; max-width: 400px; height: auto;" />
+      </td>
+      <td style="padding: 10px; border: none; width: 50%; vertical-align: middle;">
+        <!-- Custom Magic Colored GitHub Readme Activity Graph -->
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=EagleEye-0101&bg_color=080f14&color=eef4f9&line=b8ccd9&point=b8c9d6&area=true&hide_border=true" alt="Kali's Contribution Graph" style="width: 100%; max-width: 450px; height: auto;" />
       </td>
     </tr>
   </table>
