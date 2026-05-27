@@ -227,7 +227,7 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
     <tr>
       <td style="padding: 10px; border: none;">
         <!-- Custom Magic Colored GitHub Readme Stats Card -->
-        <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=EagleEye-0101&show_icons=true&bg_color=05080c&title_color=6ee7b7&text_color=cbd5e1&icon_color=a7f3d0&border_color=14251c&border_radius=12" alt="Kali's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=EagleEye-0101&show_icons=true&bg_color=05080c&title_color=6ee7b7&text_color=cbd5e1&icon_color=a7f3d0&border_color=14251c&border_radius=12" alt="Kali's GitHub Stats" />
       </td>
       <td style="padding: 10px; border: none;">
         <!-- Custom Magic Colored Streak Stats Card -->
