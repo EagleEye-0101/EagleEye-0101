@@ -39,43 +39,43 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
 
 ## 🏔️ THE EXPEDITIONS (FEATURED PROJECTS)
 
-*A chronicle of featured creations developed and maintained under the canopy:*
+*Selected projects that represent my strongest work across AI systems, gameplay engineering, and production full-stack apps.*
 
 <br />
 
-### 🧠 ARCHIVAL ENTITY I: **THE AI BLUEPRINT MEMORY OS**
-> **Domain**: `AI Systems & Graph Architectures` &nbsp;|&nbsp; **Environments**: `Unreal Engine 5` &nbsp;•&nbsp; `Blueprint Analysis` &nbsp;•&nbsp; `Local AI`
->
-> A local-first, AI-powered system designed to analyze and map complex Blueprint relationships within Unreal Engine 5 projects. It visualizes gameplay architecture, builds persistent project memory, and delivers deep structural explanations of system dependencies.
->
-*   **Transmuted Mechanisms (Key Features)**:
-    *   `🔍 Dependency Graph Analysis`: Real-time scanning of class inheritances and object-to-object relations.
-    *   `🧠 Persistent Project Memory`: Retains historical structural layouts to speed up architecture parsing.
-    *   `⚡ Offline Alchemical Explanations`: Secure, local-first intelligence providing instant, clear descriptions of system dependencies.
+### 🧠 AI Blueprint Memory OS
+**Focus:** Local-first AI tooling for Unreal Engine 5 architecture analysis.
+
+- **Stack:** `Unreal Engine 5`, `Blueprint Graph Analysis`, `Local AI Pipeline`
+- **What it solves:** Makes large Blueprint projects easier to understand and document by mapping dependency relationships and architecture flow.
+- **Highlights:**
+  - `🔍` Automated dependency graph generation for Blueprint classes and links
+  - `🧠` Persistent project memory for faster repeat analysis sessions
+  - `⚡` Offline-first explanation layer for secure local architecture insights
 
 ---
 
-### 🎮 ARCHIVAL ENTITY II: **SURVIVAL HORROR ANOMALY**
-> **Domain**: `Gameplay Systems & Optimization` &nbsp;|&nbsp; **Environments**: `Unreal Engine 5` &nbsp;•&nbsp; `Blueprints` &nbsp;•&nbsp; `Android APK Compilation`
->
-> An atmospheric, high-fidelity survival horror experience engineered specifically for mobile platforms. Features optimized zombie combat architectures, interactive exploration puzzles, custom graphics configurations, and immersive spatial horror audio cues.
->
-*   **Transmuted Mechanisms (Key Features)**:
-    *   `🧟 High-Performance Combat AI`: Dynamic target tracking and fluid zombie pathfinding algorithms.
-    *   `📱 Mobile-First Asset Optimization`: Multi-threaded packaging setups designed for smooth Android execution.
-    *   `⛈️ Dynamic Weather Integration`: Wet forest surfaces, wind gales, and dense fog rendering running stably at targeted framerates.
+### 🎮 Survival Horror Anomaly
+**Focus:** Performance-aware gameplay systems and horror atmosphere on mobile.
+
+- **Stack:** `Unreal Engine 5`, `Blueprints`, `Android Build Pipeline`
+- **What it solves:** Delivers stable, high-fidelity survival-horror gameplay under mobile hardware constraints.
+- **Highlights:**
+  - `🧟` Combat AI and enemy behavior tuned for responsive encounters
+  - `📱` Mobile-first optimization and packaging workflow for smoother builds
+  - `⛈️` Dynamic weather and environmental atmosphere integrated with gameplay mood
 
 ---
 
-### 🏦 ARCHIVAL ENTITY III: **FULL-STACK BANKING ECOSYSTEM**
-> **Domain**: `Secure API & Dashboard Design` &nbsp;|&nbsp; **Environments**: `React` &nbsp;•&nbsp; `React Native` &nbsp;•&nbsp; `Node.js` &nbsp;•&nbsp; `Express.js` &nbsp;•&nbsp; `SQL/NoSQL`
->
-> A complete, enterprise-ready banking application featuring secure multi-factor authentication, transaction control panels, real-time balance flows, backend API layers, and custom-designed financial statement generation.
->
-*   **Transmuted Mechanisms (Key Features)**:
-    *   `🔒 Cryptographic Shields (Auth)`: Secure user profiles backed by state-of-the-art token protection systems.
-    *   `💼 ERP & CRM Data Integrations`: Real-time backend workflows mapped into cohesive client dashboards.
-    *   `📊 Alchemical Statement Transmutation`: High-speed generation of detailed, secure transaction logs in portable PDF formats.
+### 🏦 Full-Stack Banking Ecosystem
+**Focus:** Secure finance-oriented product architecture from frontend to backend.
+
+- **Stack:** `React`, `React Native`, `Node.js`, `Express.js`, `SQL/NoSQL`
+- **What it solves:** Provides reliable transaction, authentication, and reporting workflows for banking-style applications.
+- **Highlights:**
+  - `🔒` Multi-factor authentication and secure API access patterns
+  - `💼` ERP/CRM-aligned service integration with dashboard-ready data
+  - `📊` Financial statement generation and transaction reporting pipeline
 
 <br />
 <div align="center">
@@ -85,134 +85,35 @@ From designing highly responsive mobile layouts to structuring scalable cloud da
 
 ## 🌿 THE GREENWOOD COGNIZANCE (STRUCTURED SKILLS)
 
-*The elements and domains of command structured into logical, organic pillars:*
+*A cleaner map of tools and capabilities I use most in real projects.*
 
 <br />
 
-<div align="center">
-  <table border="0" cellpadding="10" cellspacing="10" width="100%" style="border-collapse: separate; border-spacing: 15px; background: transparent;">
-    <tr>
-      <!-- Pillar 1 -->
-      <td width="33%" valign="top" style="background: rgba(16, 185, 129, 0.012); border-radius: 16px; border: 1.2px solid #142b20; padding: 22px;">
-        
-        <h3 align="center">🌲 PILLAR I</h3>
-        <p align="center"><font size="2" color="#a7f3d0"><strong>FOUNDATIONAL SOIL</strong></font></p>
-        <hr stroke="#142b20" stroke-width="0.8" style="opacity:0.3;" />
-        
-        <br />
-        <strong>🍵 LANGUAGES</strong>
-        <ul>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>C++</li>
-          <li>HTML5 / CSS3</li>
-          <li>SQL</li>
-        </ul>
-        
-        <br />
-        <strong>🛠️ UTILITIES &amp; TOOLING</strong>
-        <ul>
-          <li>Git &amp; GitHub</li>
-          <li>Linux / Fedora</li>
-          <li>Docker</li>
-          <li>VS Code</li>
-          <li>Firebase Console</li>
-          <li>Postman</li>
-        </ul>
+### 💻 Core Stack
+- **Languages:** `JavaScript`, `TypeScript`, `Python`, `Java`, `C++`, `SQL`
+- **Frontend:** `React`, `React Native`, `Next.js`, `Tailwind CSS`, responsive UI systems
+- **Backend:** `Node.js`, `Express.js`, REST API design, auth flows, service integration
+- **Data:** `MongoDB`, `MySQL`, `PostgreSQL`, `Firebase`
 
-      </td>
-      <!-- Pillar 2 -->
-      <td width="33%" valign="top" style="background: rgba(16, 185, 129, 0.012); border-radius: 16px; border: 1.2px solid #142b20; padding: 22px;">
-        
-        <h3 align="center">🌱 PILLAR II</h3>
-        <p align="center"><font size="2" color="#a7f3d0"><strong>THE CANOPY &amp; ROOTS</strong></font></p>
-        <hr stroke="#142b20" stroke-width="0.8" style="opacity:0.3;" />
-        
-        <br />
-        <strong>🎨 FRONTEND</strong>
-        <ul>
-          <li>React</li>
-          <li>React Native</li>
-          <li>Next.js</li>
-          <li>Tailwind CSS</li>
-          <li>Responsive UI/UX</li>
-          <li>REST API Integration</li>
-        </ul>
-        
-        <br />
-        <strong>🧪 BACKEND &amp; STORAGE</strong>
-        <ul>
-          <li>Node.js / Express.js</li>
-          <li>Authentication Systems</li>
-          <li>REST APIs</li>
-          <li>Real-time Workflows</li>
-          <li>Database Design</li>
-          <li>MongoDB / MySQL</li>
-          <li>Firebase / PostgreSQL</li>
-        </ul>
+### 🛠️ Engineering Workflow
+- `Git`, `GitHub`, `Docker`, `Linux`, `Postman`, `VS Code`
+- API-first development with testing and iterative optimization
+- Performance tuning for both application and runtime behavior
 
-        <br />
-        <strong>📱 MOBILE</strong>
-        <ul>
-          <li>Android App Dev</li>
-          <li>React Native Apps</li>
-          <li>Cross-Platform design</li>
-        </ul>
+### 🎮 Unreal + Gameplay Engineering
+- `Unreal Engine 5` and Blueprint-driven system design
+- Gameplay architecture, AI behavior design, and Android packaging workflows
+- Atmosphere-focused world systems (weather, interaction flow, pacing)
 
-      </td>
-      <!-- Pillar 3 -->
-      <td width="33%" valign="top" style="background: rgba(16, 185, 129, 0.012); border-radius: 16px; border: 1.2px solid #142b20; padding: 22px;">
-        
-        <h3 align="center">🌌 PILLAR III</h3>
-        <p align="center"><font size="2" color="#a7f3d0"><strong>THE AWAKENED REALMS</strong></font></p>
-        <hr stroke="#142b20" stroke-width="0.8" style="opacity:0.3;" />
-        
-        <br />
-        <strong>🎮 GAME DEVELOPMENT</strong>
-        <ul>
-          <li>Unreal Engine 5</li>
-          <li>Blueprint System</li>
-          <li>Gameplay System Design</li>
-          <li>AI-assisted Dev</li>
-          <li>Horror Game Dev</li>
-          <li>Android APK Packaging</li>
-        </ul>
-        
-        <br />
-        <strong>🧠 AI &amp; INTEL SYSTEM</strong>
-        <ul>
-          <li>AI System Architecture</li>
-          <li>Local-first AI Systems</li>
-          <li>Memory-based AI</li>
-          <li>Blueprint Analysis</li>
-          <li>AI Developer Tools</li>
-        </ul>
+### 🧠 AI Systems
+- Local-first AI tooling and memory-driven project analysis
+- Graph/dependency mapping for large Blueprint projects
+- Architecture explanation workflows for developer productivity
 
-        <br />
-        <strong>🛡️ CYBERSECURITY</strong>
-        <ul>
-          <li>Penetration Testing</li>
-          <li>Security Research</li>
-          <li>Custom Security Tools</li>
-          <li>Systems Analysis</li>
-        </ul>
-
-        <br />
-        <strong>🍃 SPECIALTIES</strong>
-        <ul>
-          <li>Full Stack Architecture</li>
-          <li>CRM &amp; ERP Systems</li>
-          <li>Banking Applications</li>
-          <li>Performance Tuning</li>
-          <li>Problem Solving</li>
-        </ul>
-
-      </td>
-    </tr>
-  </table>
-</div>
+### 🧩 Domain Experience
+- Full-stack product architecture
+- Finance/banking-oriented platform development
+- ERP/CRM-connected application workflows
 
 <br />
 <div align="center">
