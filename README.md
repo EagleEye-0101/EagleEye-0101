@@ -19,6 +19,17 @@
   <img src="status_window.svg" alt="Kali's Rainwood Sanctuary" width="100%" style="max-width: 800px; border-radius: 20px; box-shadow: 0 0 35px rgba(232, 242, 248, 0.1);" />
 </div>
 
+<!-- A walking line of tiny pixelated Pokemon under the centerpiece banner -->
+<div align="center" style="margin-top: -10px; margin-bottom: 25px;">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="32" style="image-rendering: pixelated; margin: 0 8px;" alt="Pikachu" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" width="32" style="image-rendering: pixelated; margin: 0 8px;" alt="Eevee" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif" width="32" style="image-rendering: pixelated; margin: 0 8px;" alt="Mew" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/251.gif" width="32" style="image-rendering: pixelated; margin: 0 8px;" alt="Celebi" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/197.gif" width="32" style="image-rendering: pixelated; margin: 0 8px;" alt="Umbreon" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/155.gif" width="32" style="image-rendering: pixelated; margin: 0 8px;" alt="Cyndaquil" />
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/258.gif" width="32" style="image-rendering: pixelated; margin: 0 8px;" alt="Mudkip" />
+</div>
+
 <!-- Stylized Dotted Divider -->
 <p align="center" style="color: #4b6a8a; letter-spacing: 6px; font-weight: bold; margin: 35px 0; font-size: 14px;">• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •</p>
 
@@ -34,9 +45,9 @@
 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%; margin-bottom: 20px;">
   <tr>
     <td style="width: 55%; padding: 10px; border: none; vertical-align: middle; color: #dce6ee;">
-      <p style="font-family: 'Playfair Display', Georgia, serif; font-size: 16px; font-style: italic; color: #b8c9d6; line-height: 1.6;">
-        May it please the forest, allow me to present myself...<br />
-        Yes, unfortunately, it's still me — <strong>Kali</strong> 🌲
+      <p style="font-family: 'Playfair Display', Georgia, serif; font-size: 16px; font-style: italic; color: #b8c9d6; line-height: 1.6; display: flex; align-items: center; gap: 8px;">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/152.gif" width="28" style="image-rendering: pixelated; vertical-align: middle;" alt="Chikorita" />
+        May it please the forest, allow me to present myself... Yes, unfortunately, it's still me — <strong>Kali</strong>
       </p>
       <p style="line-height: 1.6; font-size: 15px;">
         Welcome to my digital sanctuary, where logic grows quietly in the shadows and bugs hide under ancient roots. I write code that works beautifully in my local workspace, then pretends to have never met me when deployed to production.
@@ -65,7 +76,7 @@
 
 <p style="font-family: 'Playfair Display', Georgia, serif; font-size: 16px; font-style: italic; color: #b8c9d6; text-align: center; margin-bottom: 25px;">
   Seems like we've reached a mutual understanding.<br />
-  If you still insist on proceeding through the forest paths, here's how to contact the ~~expert~~ sleep-deprived druid managing this chaos:
+  If you still insist on proceeding through the forest paths, here's how to contact the managing developer:
 </p>
 
 <div align="center" style="margin-bottom: 30px;">
@@ -92,26 +103,39 @@
 </div>
 
 <h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #1b2936; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px; display: flex; align-items: center; justify-content: center; gap: 10px;">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/251.gif" width="36" style="vertical-align: middle; image-rendering: pixelated;" alt="Celebi Sprite" />
-  🌿 THE FOREST COGNIZANCE (SKILLS)
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/251.gif" width="32" style="vertical-align: middle; image-rendering: pixelated;" alt="Celebi" />
+  THE FOREST COGNIZANCE
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/152.gif" width="28" style="vertical-align: middle; image-rendering: pixelated;" alt="Chikorita" />
 </h2>
 
-<p style="color: #b8c9d6; font-style: italic; margin-bottom: 5px;">Languages I torture myself with daily (^_^):</p>
+<p style="color: #b8c9d6; font-style: italic; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/155.gif" width="24" style="image-rendering: pixelated;" alt="Cyndaquil" />
+  Languages I torture myself with daily:
+</p>
 <div align="center" style="margin-bottom: 20px;">
   <img src="https://skillicons.dev/icons?i=python,js,ts,cpp,sqlite&theme=dark" alt="Languages Badges" />
 </div>
 
-<p style="color: #b8c9d6; font-style: italic; margin-bottom: 5px;">Frontend & Backend wizardry (o_o):</p>
+<p style="color: #b8c9d6; font-style: italic; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" width="24" style="image-rendering: pixelated;" alt="Squirtle" />
+  Frontend & Backend wizardry:
+</p>
 <div align="center" style="margin-bottom: 20px;">
   <img src="https://skillicons.dev/icons?i=react,next,tailwind,nodejs,express&theme=dark" alt="Web Dev Badges" />
 </div>
 
-<p style="color: #b8c9d6; font-style: italic; margin-bottom: 5px;">Databases I sweet-talk to survive (•_•):</p>
+<p style="color: #b8c9d6; font-style: italic; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" width="24" style="image-rendering: pixelated;" alt="Bulbasaur" />
+  Databases I sweet-talk to survive:
+</p>
 <div align="center" style="margin-bottom: 20px;">
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,firebase&theme=dark" alt="Database Badges" />
 </div>
 
-<p style="color: #b8c9d6; font-style: italic; margin-bottom: 5px;">Game Engines & Tools that judge me (●_●):</p>
+<p style="color: #b8c9d6; font-style: italic; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/258.gif" width="24" style="image-rendering: pixelated;" alt="Mudkip" />
+  Game Engines & Tools that judge me:
+</p>
 <div align="center" style="margin-bottom: 20px;">
   <img src="https://skillicons.dev/icons?i=unreal,git,github,vscode,postman&theme=dark" alt="Tool Badges" />
 </div>
@@ -128,8 +152,9 @@
 </div>
 
 <h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #1b2936; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px; display: flex; align-items: center; justify-content: center; gap: 10px;">
-  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="36" style="vertical-align: middle; image-rendering: pixelated;" alt="Pikachu Sprite" />
-  🏔️ THE EXPEDITIONS (PROJECTS THAT SURVIVED MY BRAIN)
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="32" style="vertical-align: middle; image-rendering: pixelated;" alt="Pikachu" />
+  THE EXPEDITIONS
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" width="32" style="vertical-align: middle; image-rendering: pixelated;" alt="Eevee" />
 </h2>
 
 <!-- Project 1 Card -->
@@ -137,16 +162,17 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%;">
     <tr>
       <td style="width: 75%; padding: 10px; border: none; vertical-align: top;">
-        <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">🧠 AI Blueprint Memory OS</h3>
+        <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">AI Blueprint Memory OS</h3>
         <p style="color: #b8c9d6; font-style: italic; font-size: 14px; margin-bottom: 15px;">Focus: Local-first AI tooling for Unreal Engine 5 architecture analysis.</p>
         <p style="margin-bottom: 15px; color: #dce6ee; line-height: 1.6;">
-          Built with C++, Python, and local AI pipelines to map complex Blueprint dependencies. It scrapes nodes in real-time, visualizes call stacks, and attempts to explain why your project crashes when you touch a single variable 🤯.
+          Built with C++, Python, and local AI pipelines to map complex Blueprint dependencies. It scrapes nodes in real-time, visualizes call stacks, and attempts to explain why your project crashes when you touch a single variable.
         </p>
-        <p style="margin-bottom: 15px; color: #cbd5e1; font-style: italic; font-size: 13.5px;">
-          Warning: May cause sudden existential dread when viewing the actual complexity of your project graph 😅.
+        <p style="margin-bottom: 15px; color: #cbd5e1; font-style: italic; font-size: 13.5px; display: flex; align-items: center; gap: 6px;">
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/175.gif" width="22" style="image-rendering: pixelated;" alt="Togepi" />
+          Warning: May cause sudden existential dread when viewing the actual complexity of your project graph.
         </p>
         <p style="margin-bottom: 0;">
-          <a href="https://github.com/EagleEye-0101" style="color: #a5c0d6; text-decoration: none; font-weight: bold;">Geek mode ON ⚡</a>
+          <a href="https://github.com/EagleEye-0101" style="color: #a5c0d6; text-decoration: none; font-weight: bold;">Geek mode ON</a>
         </p>
       </td>
       <td style="width: 25%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
@@ -164,16 +190,17 @@
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif" alt="Gengar Animated Sprite" style="width: 80px; height: 80px; image-rendering: pixelated;" />
       </td>
       <td style="width: 75%; padding: 10px; border: none; vertical-align: top;">
-        <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">🎮 Survival Horror Anomaly</h3>
+        <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">Survival Horror Anomaly</h3>
         <p style="color: #b8c9d6; font-style: italic; font-size: 14px; margin-bottom: 15px;">Focus: Performance-aware gameplay systems and horror atmosphere on mobile.</p>
         <p style="margin-bottom: 15px; color: #dce6ee; line-height: 1.6;">
           Developed entirely inside Unreal Engine 5, featuring advanced horror mechanics, adaptive ambient weather, and responsive AI. Optimized specifically for Android builds so you can experience high-fidelity dread on the go.
         </p>
-        <p style="margin-bottom: 15px; color: #cbd5e1; font-style: italic; font-size: 13.5px;">
-          Disclaimer: Binge gameplay might ruin your sleep schedule and force you to question your life choices 🧟.
+        <p style="margin-bottom: 15px; color: #cbd5e1; font-style: italic; font-size: 13.5px; display: flex; align-items: center; gap: 6px;">
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/491.gif" width="26" style="image-rendering: pixelated;" alt="Darkrai" />
+          Disclaimer: Binge gameplay might ruin your sleep schedule and force you to question your life choices.
         </p>
         <p style="margin-bottom: 0;">
-          <a href="https://github.com/EagleEye-0101" style="color: #a5c0d6; text-decoration: none; font-weight: bold;">Enter the mansion of madness 🧟</a>
+          <a href="https://github.com/EagleEye-0101" style="color: #a5c0d6; text-decoration: none; font-weight: bold;">Enter the mansion of madness</a>
         </p>
       </td>
     </tr>
@@ -185,16 +212,17 @@
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%;">
     <tr>
       <td style="width: 75%; padding: 10px; border: none; vertical-align: top;">
-        <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">🏦 Full-Stack Banking Ecosystem</h3>
+        <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">Full-Stack Banking Ecosystem</h3>
         <p style="color: #b8c9d6; font-style: italic; font-size: 14px; margin-bottom: 15px;">Focus: Secure finance-oriented product architecture from frontend to backend.</p>
         <p style="margin-bottom: 15px; color: #dce6ee; line-height: 1.6;">
           A secure, modular banking suite built with React, Node.js, and multi-factor authentication. Implements real-time financial reporting, automated statement generation, and transactional bookkeeping.
         </p>
-        <p style="margin-bottom: 15px; color: #cbd5e1; font-style: italic; font-size: 13.5px;">
-          Heads up: Designed to track expenses, budgets, and other financial disasters before they track you 💸.
+        <p style="margin-bottom: 15px; color: #cbd5e1; font-style: italic; font-size: 13.5px; display: flex; align-items: center; gap: 6px;">
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/143.gif" width="26" style="image-rendering: pixelated;" alt="Snorlax" />
+          Heads up: Designed to track expenses, budgets, and other financial disasters before they track you.
         </p>
         <p style="margin-bottom: 0;">
-          <a href="https://github.com/EagleEye-0101" style="color: #a5c0d6; text-decoration: none; font-weight: bold;">Investigate the vault 🔒</a>
+          <a href="https://github.com/EagleEye-0101" style="color: #a5c0d6; text-decoration: none; font-weight: bold;">Investigate the vault</a>
         </p>
       </td>
       <td style="width: 25%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
@@ -217,7 +245,8 @@
 
 <h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #1b2936; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px; display: flex; align-items: center; justify-content: center; gap: 10px;">
   <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/493.gif" width="40" style="vertical-align: middle; image-rendering: pixelated;" alt="Arceus Sprite" />
-  📊 CELESTIAL RAINFALL & PERFORMANCE STATS
+  CELESTIAL RAINFALL & STATS
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/384.gif" width="40" style="vertical-align: middle; image-rendering: pixelated;" alt="Rayquaza" />
 </h2>
 
 <div align="center" style="margin-bottom: 30px;">
@@ -251,15 +280,15 @@
       <img src="https://github.com/user-attachments/assets/f2e5917a-b68e-402e-a9f5-61d1f28dd539" alt="Witch Coder Pixel Art" style="width: 100%; max-width: 320px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); border: 1px solid #1b2936;" />
     </td>
     <td style="width: 55%; padding: 10px; border: none; vertical-align: middle; color: #dce6ee;">
-      <p style="font-family: 'Playfair Display', Georgia, serif; font-size: 16px; font-style: italic; color: #b8c9d6; line-height: 1.6;">
-        Let's assume this actually works out...<br />
-        Statistically unlikely, but still on the roadmap.
+      <p style="font-family: 'Playfair Display', Georgia, serif; font-size: 16px; font-style: italic; color: #b8c9d6; line-height: 1.6; display: flex; align-items: center; gap: 8px;">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/149.gif" width="30" style="image-rendering: pixelated; vertical-align: middle;" alt="Dragonite" />
+        Let's assume this actually works out... Statistically unlikely, but still on the roadmap.
       </p>
       <p style="line-height: 1.6; font-size: 15px;">
         <strong>Cultivating as a System Architect:</strong> Turning chaotic, overgrown codebases and database servers into structured, peaceful woodland ecosystems.
       </p>
       <p style="line-height: 1.6; font-size: 15px;">
-        <strong>Refining gameplay pacing:</strong> Continuing to build immersive and atmosphere-rich titles, keeping memory leaks and mobile thermals at bay (^_^).
+        <strong>Refining gameplay pacing:</strong> Continuing to build immersive and atmosphere-rich titles, keeping memory leaks and mobile thermals at bay.
       </p>
     </td>
   </tr>
