@@ -50,7 +50,7 @@
     <td style="width: 55%; padding: 10px; border: none; vertical-align: middle; color: #dce6ee;">
       <p style="font-family: 'Playfair Display', Georgia, serif; font-size: 16px; font-style: italic; color: #b8c9d6; line-height: 1.6; display: flex; align-items: center; gap: 8px;">
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/152.gif" width="28" style="image-rendering: pixelated; vertical-align: middle;" alt="Chikorita">
-        May it please the forest, allow me to present myself... Yes, unfortunately, it's still me — <strong>Kali</strong>
+        May it please the forest, allow me to present myself... Yes, unfortunately, it's still me - <strong>Kali</strong>
       </p>
       <p style="line-height: 1.6; font-size: 15px;">
         Welcome to my digital sanctuary, where logic grows quietly in the shadows and bugs hide under ancient roots. I write code that works beautifully in my local workspace, then pretends to have never met me when deployed to production.
@@ -61,7 +61,7 @@
     </td>
     <td style="width: 45%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
       <!-- Cozy Lofi Coding Workspace GIF -->
-      <img src="https://github.com/user-attachments/assets/29cf9353-a43a-4750-bcf1-94fb6a17c9bb" alt="Cozy Lofi Coder Workspace" style="width: 100%; max-width: 380px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); border: 1px solid #1b2936;">
+      <img src="https://github.com/user-attachments/assets/7bb05f47-9de9-4442-9499-db0cf9e75585" alt="Cozy Lofi Coder Workspace" style="width: 100%; max-width: 380px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); border: 1px solid #1b2936;">
     </td>
   </tr>
 </table>
