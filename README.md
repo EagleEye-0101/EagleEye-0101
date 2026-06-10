@@ -46,7 +46,8 @@
       </p>
     </td>
     <td style="width: 45%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
-      <img src="assets/forest_workspace.png" alt="Kali's Workspace" style="width: 100%; max-width: 320px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); border: 1px solid #1b2936;" />
+      <!-- Cozy Pixel Art Coding Desk GIF -->
+      <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Cozy Pixel Coder Desk" style="width: 100%; max-width: 380px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); border: 1px solid #1b2936;" />
     </td>
   </tr>
 </table>
@@ -90,7 +91,10 @@
   </p>
 </div>
 
-<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #1b2936; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px;">🌿 THE FOREST COGNIZANCE (SKILLS)</h2>
+<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #1b2936; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px; display: flex; align-items: center; justify-content: center; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/251.gif" width="36" style="vertical-align: middle; image-rendering: pixelated;" alt="Celebi Sprite" />
+  🌿 THE FOREST COGNIZANCE (SKILLS)
+</h2>
 
 <p style="color: #b8c9d6; font-style: italic; margin-bottom: 5px;">Languages I torture myself with daily (^_^):</p>
 <div align="center" style="margin-bottom: 20px;">
@@ -123,13 +127,16 @@
   </p>
 </div>
 
-<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #1b2936; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px;">🏔️ THE EXPEDITIONS (PROJECTS THAT SURVIVED MY BRAIN)</h2>
+<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #1b2936; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px; display: flex; align-items: center; justify-content: center; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="36" style="vertical-align: middle; image-rendering: pixelated;" alt="Pikachu Sprite" />
+  🏔️ THE EXPEDITIONS (PROJECTS THAT SURVIVED MY BRAIN)
+</h2>
 
 <!-- Project 1 Card -->
 <div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%;">
     <tr>
-      <td style="width: 70%; padding: 10px; border: none; vertical-align: top;">
+      <td style="width: 75%; padding: 10px; border: none; vertical-align: top;">
         <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">🧠 AI Blueprint Memory OS</h3>
         <p style="color: #b8c9d6; font-style: italic; font-size: 14px; margin-bottom: 15px;">Focus: Local-first AI tooling for Unreal Engine 5 architecture analysis.</p>
         <p style="margin-bottom: 15px; color: #dce6ee; line-height: 1.6;">
@@ -142,8 +149,8 @@
           <a href="https://github.com/EagleEye-0101" style="color: #a5c0d6; text-decoration: none; font-weight: bold;">Geek mode ON ⚡</a>
         </p>
       </td>
-      <td style="width: 30%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
-        <img src="assets/blueprint_brain_sticker.png" alt="Brain Sticker" style="width: 100%; max-width: 140px; border-radius: 12px;" />
+      <td style="width: 25%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif" alt="Mew Animated Sprite" style="width: 80px; height: 80px; image-rendering: pixelated;" />
       </td>
     </tr>
   </table>
@@ -153,10 +160,10 @@
 <div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%;">
     <tr>
-      <td style="width: 30%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
-        <img src="assets/horror_spectre_sticker.png" alt="Horror Sticker" style="width: 100%; max-width: 140px; border-radius: 12px;" />
+      <td style="width: 25%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/94.gif" alt="Gengar Animated Sprite" style="width: 80px; height: 80px; image-rendering: pixelated;" />
       </td>
-      <td style="width: 70%; padding: 10px; border: none; vertical-align: top;">
+      <td style="width: 75%; padding: 10px; border: none; vertical-align: top;">
         <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">🎮 Survival Horror Anomaly</h3>
         <p style="color: #b8c9d6; font-style: italic; font-size: 14px; margin-bottom: 15px;">Focus: Performance-aware gameplay systems and horror atmosphere on mobile.</p>
         <p style="margin-bottom: 15px; color: #dce6ee; line-height: 1.6;">
@@ -177,7 +184,7 @@
 <div style="background-color: #060b0e; border: 1px solid #0f1419; border-radius: 16px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%;">
     <tr>
-      <td style="width: 70%; padding: 10px; border: none; vertical-align: top;">
+      <td style="width: 75%; padding: 10px; border: none; vertical-align: top;">
         <h3 style="font-family: 'Cinzel', serif; color: #eef4f9; margin-top: 0; margin-bottom: 5px; letter-spacing: 1px;">🏦 Full-Stack Banking Ecosystem</h3>
         <p style="color: #b8c9d6; font-style: italic; font-size: 14px; margin-bottom: 15px;">Focus: Secure finance-oriented product architecture from frontend to backend.</p>
         <p style="margin-bottom: 15px; color: #dce6ee; line-height: 1.6;">
@@ -190,8 +197,8 @@
           <a href="https://github.com/EagleEye-0101" style="color: #a5c0d6; text-decoration: none; font-weight: bold;">Investigate the vault 🔒</a>
         </p>
       </td>
-      <td style="width: 30%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
-        <img src="assets/banking_vault_sticker.png" alt="Banking Sticker" style="width: 100%; max-width: 140px; border-radius: 12px;" />
+      <td style="width: 25%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/197.gif" alt="Umbreon Animated Sprite" style="width: 80px; height: 80px; image-rendering: pixelated;" />
       </td>
     </tr>
   </table>
@@ -208,7 +215,10 @@
   </p>
 </div>
 
-<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #1b2936; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px;">📊 CELESTIAL RAINFALL & PERFORMANCE STATS</h2>
+<h2 style="font-family: 'Cinzel', serif; color: #eef4f9; border-bottom: 1px solid #1b2936; padding-bottom: 8px; margin-top: 40px; margin-bottom: 25px; letter-spacing: 2px; display: flex; align-items: center; justify-content: center; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/493.gif" width="40" style="vertical-align: middle; image-rendering: pixelated;" alt="Arceus Sprite" />
+  📊 CELESTIAL RAINFALL & PERFORMANCE STATS
+</h2>
 
 <div align="center" style="margin-bottom: 30px;">
   <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%; max-width: 850px;">
@@ -237,7 +247,8 @@
 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent; width: 100%; margin-bottom: 20px;">
   <tr>
     <td style="width: 45%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
-      <img src="assets/woodland_coding.png" alt="Kali Coding" style="width: 100%; max-width: 320px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); border: 1px solid #1b2936;" />
+      <!-- Cozy Witch/Wizard Coding Pixel Art Animation -->
+      <img src="https://github.com/user-attachments/assets/f2e5917a-b68e-402e-a9f5-61d1f28dd539" alt="Witch Coder Pixel Art" style="width: 100%; max-width: 320px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); border: 1px solid #1b2936;" />
     </td>
     <td style="width: 55%; padding: 10px; border: none; vertical-align: middle; color: #dce6ee;">
       <p style="font-family: 'Playfair Display', Georgia, serif; font-size: 16px; font-style: italic; color: #b8c9d6; line-height: 1.6;">
