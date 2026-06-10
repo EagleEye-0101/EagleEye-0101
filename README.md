@@ -60,8 +60,8 @@
       </p>
     </td>
     <td style="width: 45%; padding: 10px; border: none; vertical-align: middle; text-align: center;">
-      <!-- Cozy Pixel Art Coding Desk GIF -->
-      <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" alt="Cozy Pixel Coder Desk" style="width: 100%; max-width: 380px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); border: 1px solid #1b2936;">
+      <!-- Cozy Lofi Coding Workspace GIF -->
+      <img src="https://github.com/user-attachments/assets/29cf9353-a43a-4750-bcf1-94fb6a17c9bb" alt="Cozy Lofi Coder Workspace" style="width: 100%; max-width: 380px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); border: 1px solid #1b2936;">
     </td>
   </tr>
 </table>
